@@ -16,7 +16,7 @@ class login extends StatelessWidget {
         child: Stack(
           children: [
             Image.asset(
-              'Assets/image/square.jpeg',
+              'Assets/image/login.jpeg',
               width: double.infinity,
               height: 720.0.h,
               fit: BoxFit.cover,
@@ -26,13 +26,13 @@ class login extends StatelessWidget {
               child: SingleChildScrollView(
                 scrollDirection: Axis.vertical,
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
                         'بشائر الخيرات ',
                       style: TextStyle(
-                        fontSize: 30.0.sp,
-                        fontWeight: FontWeight.bold,
+                        fontSize: 40.0.sp,
+                        fontWeight: FontWeight.w700,
                         color: Colors.white,
                       ),
                     ),

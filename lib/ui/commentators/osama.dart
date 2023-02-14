@@ -16,7 +16,7 @@ class Osama extends StatelessWidget {
         child: Stack(
           children: [
             Image.asset(
-              'Assets/image/square.jpeg',
+              'Assets/image/background.jpeg',
               width: double.infinity,
               height: 720.0.h,
               fit: BoxFit.cover,
