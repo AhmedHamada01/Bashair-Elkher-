@@ -27,7 +27,7 @@ class login extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 60.0,top: 20.0).r,
+                  padding: const EdgeInsets.only(right: 75.0,top: 20.0).r,
                   child: Text(
                     'بشائر الخيرات ',
                     style: TextStyle(
@@ -39,7 +39,7 @@ class login extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 80.0,top: 80.0).r,
+                  padding: const EdgeInsets.only(right: 95.0,top: 80.0).r,
                   child: Text(
                     '\" يَا أَبَتِ هَٰذَا تَأْوِيلُ رُؤْيَايَ\"',
                     style: TextStyle(
@@ -49,7 +49,7 @@ class login extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 25.0,right: 25.0,top: 250.0).r,
+                  padding: const EdgeInsets.only(left: 25.0,right: 25.0,top: 270.0).r,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [

@@ -13,25 +13,25 @@ class MahmoudFekery extends StatelessWidget {
       bottomNavigationBar: bottomNavBar(),
       body: Directionality(
         textDirection: TextDirection.rtl,
-        child: Stack(
-          children: [
-            Image.asset(
-              'Assets/image/background.jpeg',
-              width: double.infinity,
-              height: 720.0.h,
-              fit: BoxFit.cover,
-            ),
-            Padding(
-              padding: const EdgeInsets.only(top: 25.0,right: 15.0).r,
-              child: Image.asset(
-                'Assets/image/logo.png',
-                width: 70.0.w,
-                height: 70.0.h,
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Stack(
+            children: [
+              Image.asset(
+                'Assets/image/background.jpeg',
+                width: double.infinity,
+                height: 720.0.h,
+                fit: BoxFit.cover,
               ),
-            ),
-            SingleChildScrollView(
-              scrollDirection: Axis.vertical,
-              child: Column(
+              Padding(
+                padding: const EdgeInsets.only(top: 25.0,right: 15.0).r,
+                child: Image.asset(
+                  'Assets/image/logo.png',
+                  width: 70.0.w,
+                  height: 70.0.h,
+                ),
+              ),
+              Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
@@ -147,8 +147,8 @@ class MahmoudFekery extends StatelessWidget {
                   star(),
                 ],
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

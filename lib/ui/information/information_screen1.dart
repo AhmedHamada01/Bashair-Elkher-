@@ -557,6 +557,9 @@ class InformationScreen1 extends StatelessWidget {
                           ),
                         ),
                       ),
+                      SizedBox(
+                        height: 20.0.h,
+                      ),
                     ],
                   ),
                 ),
