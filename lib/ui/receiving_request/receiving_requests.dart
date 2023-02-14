@@ -90,14 +90,14 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                                 'اغلاق تلقى جميع الطلبات  ',
                                 style: TextStyle(
                                     fontSize: 20.0.sp,
-                                    fontWeight: FontWeight.w800
+                                    fontWeight: FontWeight.bold
                                 ),
                               ),
                               Text(
                                 'عند قفل الزر , لن تتلقى  ',
                                 style: TextStyle(
                                     fontSize: 20.0.sp,
-                                    fontWeight: FontWeight.w800
+                                    fontWeight: FontWeight.bold
                                 ),
                               ),
                               Text(
@@ -106,7 +106,7 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                                 'اى طلبات للتفسير  ',
                                 style: TextStyle(
                                     fontSize: 20.0.sp,
-                                    fontWeight: FontWeight.w800
+                                    fontWeight: FontWeight.bold
                                 ),
                               ),
                             ],
