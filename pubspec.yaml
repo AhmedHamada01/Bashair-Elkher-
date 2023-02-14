@@ -15,7 +15,6 @@ dependencies:
     sdk: flutter
   hexcolor: ^2.0.3
   flutter_screenutil: ^5.6.0
-
   cupertino_icons: ^1.0.2
 
 dev_dependencies:

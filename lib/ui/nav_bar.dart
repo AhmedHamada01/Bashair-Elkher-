@@ -96,5 +96,113 @@ Widget star () =>  Row(
   ],
 );
 
+Widget choiceCommentatorStar5 () =>  Row(
+
+  mainAxisAlignment: MainAxisAlignment.center,
+  children: [
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+  ],
+);
+
+Widget choiceCommentatorStar2 () =>  Row(
+
+  mainAxisAlignment: MainAxisAlignment.center,
+  children: [
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+  ],
+);
+
+Widget choiceCommentatorStar3 () =>  Row(
+
+  mainAxisAlignment: MainAxisAlignment.center,
+  children: [
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+    Image.asset(
+      'Assets/image/star3.png',
+      width: 20.0.w,
+      height: 20.0.h,
+      color: Colors.white,
+    ),
+    SizedBox(
+      width: 5.0.w,
+    ),
+  ],
+);
+
 
 

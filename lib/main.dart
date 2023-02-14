@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'ui/choice_commentator/choice_commentator.dart';
 import 'ui/commentators/abdulrahman.dart';
 import 'ui/commentators/abo_yehia.dart';
 import 'ui/commentators/ibrahim.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: login(),
+          home: ChoiceCommentator(),
         );
       },
     );
