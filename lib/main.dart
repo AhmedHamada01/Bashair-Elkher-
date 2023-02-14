@@ -1,3 +1,4 @@
+import 'package:bshair_elkher/ui/information/information_screen2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -11,6 +12,7 @@ import 'ui/commentators/mohamed.dart';
 import 'ui/commentators/om_raian.dart';
 import 'ui/commentators/omnia_ahmed.dart';
 import 'ui/commentators/osama.dart';
+import 'ui/information/information_screen1.dart';
 import 'ui/instructions/instructions.dart';
 import 'ui/login/login.dart';
 import 'ui/packages/package.dart';
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: ChoiceCommentator(),
+          home: InformationScreen2(),
         );
       },
     );
