@@ -14,10 +14,12 @@ import 'ui/commentators/omnia_ahmed.dart';
 import 'ui/commentators/osama.dart';
 import 'ui/information/information_screen1.dart';
 import 'ui/instructions/instructions.dart';
+import 'ui/instructions/instructions_screen.dart';
 import 'ui/login/login.dart';
 import 'ui/packages/package.dart';
 import 'ui/profile/profile.dart';
 import 'ui/receiving_request/receiving_requests.dart';
+import 'ui/who_us/who_us.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget {
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: ReceivingRequests(),
+          home: InstructionsScreen(),
         );
       },
     );
