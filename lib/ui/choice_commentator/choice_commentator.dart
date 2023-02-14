@@ -7,7 +7,6 @@ import 'package:hexcolor/hexcolor.dart';
 
 class ChoiceCommentator extends StatelessWidget {
 
-  ScrollController _rrectController = ScrollController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,14 +50,28 @@ class ChoiceCommentator extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 40.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundImage: AssetImage(
+                                    'Assets/image/mohamed.png',
+                                  ),
+                                  radius: 30.0.w,
+                                ),
+                                SizedBox(
+                                  width: 15.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('008036'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
+                            ),
                             SizedBox(
                               height: 5.0.h,
-                            ),
-                            CircleAvatar(
-                              backgroundImage: AssetImage(
-                                'Assets/image/mohamed.png',
-                              ),
-                              radius: 30.0.w,
                             ),
                             Text(
                               'محمد المباشر ',
@@ -101,13 +114,21 @@ class ChoiceCommentator extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(
-                              height: 5.0.h,
-                            ),
-                            Icon(
-                              Icons.person,
-                              color: Colors.white,
-                              size: 80.0.w,
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 30.0.w,
+                                ),
+                                Icon(
+                                  Icons.person,
+                                  color: Colors.white,
+                                  size: 80.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('47b717'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
                             ),
                             Text(
                               'محمد حسن ',
@@ -152,10 +173,21 @@ class ChoiceCommentator extends StatelessWidget {
                             SizedBox(
                               height: 5.0.h,
                             ),
-                            Icon(
-                              Icons.person,
-                              color: Colors.white,
-                              size: 80.0.w,
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 30.0.w,
+                                ),
+                                Icon(
+                                  Icons.person,
+                                  color: Colors.white,
+                                  size: 80.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('47b717'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
                             ),
                             Text(
                               'احمد ',
@@ -193,13 +225,21 @@ class ChoiceCommentator extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(
-                              height: 5.0.h,
-                            ),
-                            Icon(
-                              Icons.person,
-                              color: Colors.white,
-                              size: 80.0.w,
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 30.0.w,
+                                ),
+                                Icon(
+                                  Icons.person,
+                                  color: Colors.white,
+                                  size: 80.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('008036'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
                             ),
                             Text(
                               'محمد حسن ',
@@ -241,13 +281,21 @@ class ChoiceCommentator extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(
-                              height: 5.0.h,
-                            ),
-                            Icon(
-                              Icons.person,
-                              color: Colors.white,
-                              size: 80.0.w,
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 30.0.w,
+                                ),
+                                Icon(
+                                  Icons.person,
+                                  color: Colors.white,
+                                  size: 80.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('008036'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
                             ),
                             Text(
                               'احمد ',
@@ -285,13 +333,21 @@ class ChoiceCommentator extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(
-                              height: 5.0.h,
-                            ),
-                            Icon(
-                              Icons.person,
-                              color: Colors.white,
-                              size: 80.0.w,
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 30.0.w,
+                                ),
+                                Icon(
+                                  Icons.person,
+                                  color: Colors.white,
+                                  size: 80.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('47b717'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
                             ),
                             Text(
                               'محمد حسن ',
@@ -333,13 +389,21 @@ class ChoiceCommentator extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(
-                              height: 5.0.h,
-                            ),
-                            Icon(
-                              Icons.person,
-                              color: Colors.white,
-                              size: 80.0.w,
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 30.0.w,
+                                ),
+                                Icon(
+                                  Icons.person,
+                                  color: Colors.white,
+                                  size: 80.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('47b717'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
                             ),
                             Text(
                               'احمد ',
@@ -377,13 +441,21 @@ class ChoiceCommentator extends StatelessWidget {
                         ),
                         child: Column(
                           children: [
-                            SizedBox(
-                              height: 5.0.h,
-                            ),
-                            Icon(
-                              Icons.person,
-                              color: Colors.white,
-                              size: 80.0.w,
+                            Row(
+                              children: [
+                                SizedBox(
+                                  width: 30.0.w,
+                                ),
+                                Icon(
+                                  Icons.person,
+                                  color: Colors.white,
+                                  size: 80.0.w,
+                                ),
+                                CircleAvatar(
+                                  backgroundColor: HexColor('008036'),
+                                  radius: 10.0.w,
+                                ),
+                              ],
                             ),
                             Text(
                               'محمد حسن ',
