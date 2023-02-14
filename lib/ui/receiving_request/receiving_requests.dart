@@ -13,7 +13,7 @@ class ReceivingRequests extends StatefulWidget {
 }
 
 class _ReceivingRequestsState extends State<ReceivingRequests> {
-  bool valueAll = true ;
+  bool valueAll = false ;
   bool valueNormal = true ;
   bool valuSilver = true ;
   bool valueGold = true ;
@@ -67,6 +67,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                         ),
                       ],
                     ),
+                    SizedBox(
+                      height: 10.0.h,
+                    ),
                     Container(
                       width: double.infinity,
                       height: 120.0.h,
@@ -108,7 +111,17 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               ),
                             ],
                           ),
-                          turnOnAndOff(Value: valueAll),
+                          Directionality(
+                            textDirection: TextDirection.ltr,
+                            child: Transform.scale(
+                              scale: 1.4.r,
+                              child: CupertinoSwitch(
+                                  activeColor: HexColor('008036'),
+                                  trackColor: HexColor('ff1717'),
+                                  value: valueAll,
+                                  onChanged: (valueAll) => setState(() =>this.valueAll = valueAll)),
+                            ),
+                          ),
                         ],
                       ),
                     ),
@@ -152,7 +165,17 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               SizedBox(
                                 width: 30.0,
                               ),
-                              turnOnAndOff(Value: valueNormal),
+                              Directionality(
+                                textDirection: TextDirection.ltr,
+                                child: Transform.scale(
+                                  scale: 1.4.r,
+                                  child: CupertinoSwitch(
+                                      activeColor: HexColor('008036'),
+                                      trackColor: HexColor('ff1717'),
+                                      value: valueNormal,
+                                      onChanged: (valueNormal) => setState(() =>this.valueNormal = valueNormal)),
+                                ),
+                              ),
                             ],
                           ),
                           Text(
@@ -204,7 +227,17 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               SizedBox(
                                 width: 30.0,
                               ),
-                              turnOnAndOff(Value: valuSilver)
+                              Directionality(
+                                textDirection: TextDirection.ltr,
+                                child: Transform.scale(
+                                  scale: 1.4.r,
+                                  child: CupertinoSwitch(
+                                      activeColor: HexColor('008036'),
+                                      trackColor: HexColor('ff1717'),
+                                      value: valuSilver,
+                                      onChanged: (valuSilver) => setState(() =>this.valuSilver = valuSilver)),
+                                ),
+                              ),
                             ],
                           ),
                           Text(
@@ -256,7 +289,17 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               SizedBox(
                                 width: 30.0,
                               ),
-                              turnOnAndOff(Value: valueGold),
+                              Directionality(
+                                textDirection: TextDirection.ltr,
+                                child: Transform.scale(
+                                  scale: 1.4.r,
+                                  child: CupertinoSwitch(
+                                      activeColor: HexColor('008036'),
+                                      trackColor: HexColor('ff1717'),
+                                      value: valueGold,
+                                      onChanged: (valueGold) => setState(() =>this.valueGold = valueGold)),
+                                ),
+                              ),
                             ],
                           ),
                           Text(
@@ -308,7 +351,17 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               SizedBox(
                                 width: 30.0,
                               ),
-                              turnOnAndOff(Value: valueImmediate),
+                              Directionality(
+                                textDirection: TextDirection.ltr,
+                                child: Transform.scale(
+                                  scale: 1.4.r,
+                                  child: CupertinoSwitch(
+                                      activeColor: HexColor('008036'),
+                                      trackColor: HexColor('ff1717'),
+                                      value: valueImmediate,
+                                      onChanged: (valueImmediate) => setState(() =>this.valueImmediate = valueImmediate)),
+                                ),
+                              ),
                             ],
                           ),
                           Text(
@@ -333,24 +386,4 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
       ),
     );
   }
-
-  Widget turnOnAndOff({required Value }) => Directionality(
-    textDirection: TextDirection.ltr,
-    child: Transform.scale(
-      scale: 1.4.r,
-      child: CupertinoSwitch(
-        activeColor: HexColor('008036'),
-        trackColor: HexColor('ff1717'),
-          value: Value,
-          onChanged: (Value){
-            if (Value == true){
-              Value = this.valueGold;
-            }else{
-              setState(() {
-            Value = false;
-              });
-            }
-          }),
-      ),
-    ) ;
 }

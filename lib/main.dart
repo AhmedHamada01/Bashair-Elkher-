@@ -14,7 +14,7 @@ import 'ui/instructions/instructions.dart';
 import 'ui/login/login.dart';
 import 'ui/packages/package.dart';
 import 'ui/profile/profile.dart';
-import 'ui/receiving_requests.dart';
+import 'ui/receiving_request/receiving_requests.dart';
 
 void main() {
   runApp(const MyApp());
