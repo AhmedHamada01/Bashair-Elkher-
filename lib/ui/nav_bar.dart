@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 Widget bottomNavBar() => BottomNavigationBar(
+  selectedFontSize: 1.0.h,
   backgroundColor: Colors.blue,
   iconSize: 50.0.w,
   items: [

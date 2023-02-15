@@ -1,17 +1,29 @@
 
+import 'package:bshair_elkher/ui/instructions/instructions.dart';
 import 'package:bshair_elkher/ui/nav_bar.dart';
+import 'package:bshair_elkher/ui/profile/profile.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import '../authentication.dart';
 
-class login extends StatelessWidget {
 
+class login extends StatefulWidget {
+
+  @override
+  State<login> createState() => _loginState();
+}
+
+class _loginState extends State<login> {
   var Formkey = GlobalKey<FormState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNavBar(),
       body: Directionality(
         textDirection: TextDirection.rtl,
         child: Form(
@@ -67,26 +79,42 @@ class login extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Image.asset(
-                            'Assets/image/twitter.png',
-                            width: 50.0.w,
-                            height: 50.0.h,
+                          InkWell(
+                            onTap: () async{
+                              await signInWithTwitter();
+                            },
+                            child: Image.asset(
+                              'Assets/image/twitter.png',
+                              width: 50.0.w,
+                              height: 50.0.h,
+                            ),
                           ),
                           SizedBox(
                             width: 40.0.w,
                           ),
-                          Image.asset(
-                            'Assets/image/facebook.png',
-                            width: 50.0.w,
-                            height: 50.0.h,
+                          InkWell(
+                            onTap: () async{
+                              await signInWithFacebook();
+                            },
+                            child: Image.asset(
+                              'Assets/image/facebook.png',
+                              width: 50.0.w,
+                              height: 50.0.h,
+                            ),
                           ),
                           SizedBox(
                             width: 40.0.w,
                           ),
-                          Image.asset(
-                            'Assets/image/google.png',
-                            width: 50.0.w,
-                            height: 50.0.h,
+                          InkWell(
+                            onTap: () async{
+                              await signInWithGoogle();
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
+                            },
+                            child: Image.asset(
+                              'Assets/image/google.png',
+                              width: 50.0.w,
+                              height: 50.0.h,
+                            ),
                           ),
                           SizedBox(
                             width: 40.0.w,
@@ -176,7 +204,9 @@ class login extends StatelessWidget {
                         margin: EdgeInsets.only(left: 70.0 ,right: 50.0).r,
                         child: MaterialButton(
                           onPressed: (){
-                            if(Formkey.currentState!.validate()){}
+                            if(Formkey.currentState!.validate()){
+                             Navigator.push(context, MaterialPageRoute(builder: (context)=>Profile()));
+                            }
                           },
                           child:Text(
                             'دخول',

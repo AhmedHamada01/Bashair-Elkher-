@@ -1,5 +1,6 @@
 
 import 'package:bshair_elkher/ui/nav_bar.dart';
+import 'package:bshair_elkher/ui/receiving_request/receiving_requests.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -20,7 +21,7 @@ class Profile extends StatelessWidget {
               Image.asset(
                 'Assets/image/background.jpeg',
                 width: double.infinity,
-                height: 720.0.h,
+                height: 800.0.h,
                 fit: BoxFit.cover,
               ),
               Padding(
@@ -216,39 +217,44 @@ class Profile extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      CircleAvatar(
-                        backgroundColor: HexColor('1b9ef0') ,
-                        radius: 70.0.w,
-                        child: Column(
-                          children: [
-                            SizedBox(
-                              height: 10.0.h,
-                            ),
-                            Text(
-                              ' ضبط ',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 25.0.sp,
-                                fontWeight: FontWeight.bold,
+                      InkWell(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>ReceivingRequests()));
+                        },
+                        child: CircleAvatar(
+                          backgroundColor: HexColor('1b9ef0') ,
+                          radius: 70.0.w,
+                          child: Column(
+                            children: [
+                              SizedBox(
+                                height: 10.0.h,
                               ),
-                            ),
-                            Text(
-                              ' استقبال  ',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 25.0.sp,
-                                fontWeight: FontWeight.bold,
+                              Text(
+                                ' ضبط ',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 25.0.sp,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                            Text(
-                              'الطلبات',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 25.0.sp,
-                                fontWeight: FontWeight.bold,
+                              Text(
+                                ' استقبال  ',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 25.0.sp,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                          ],
+                              Text(
+                                'الطلبات',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 25.0.sp,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                       SizedBox(

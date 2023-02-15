@@ -1,4 +1,5 @@
 import 'package:bshair_elkher/ui/information/information_screen2.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -21,7 +22,9 @@ import 'ui/profile/profile.dart';
 import 'ui/receiving_request/receiving_requests.dart';
 import 'ui/who_us/who_us.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -38,7 +41,7 @@ class MyApp extends StatelessWidget {
       builder: (BuildContext context, Widget? child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: ChoiceCommentator(),
+          home: login(),
         );
       },
     );

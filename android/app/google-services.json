@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454455651376",
+    "project_id": "bshair-elkher",
+    "storage_bucket": "bshair-elkher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454455651376:android:1d6c74fac8e796807d91f5",
+        "android_client_info": {
+          "package_name": "com.example.bshair_elkher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454455651376-vtuuick4r89iu570ar9phqf1a0psc33l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCvuj3YvalKs_T_rIrZoblToLlTwT3T_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454455651376-vtuuick4r89iu570ar9phqf1a0psc33l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
