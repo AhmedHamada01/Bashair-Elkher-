@@ -1,4 +1,6 @@
 
+import 'dart:io';
+
 import 'package:bshair_elkher/ui/choice_commentator/choice_commentator.dart';
 import 'package:bshair_elkher/ui/instructions/instructions_screen.dart';
 import 'package:bshair_elkher/ui/nav_bar.dart';
@@ -6,6 +8,10 @@ import 'package:bshair_elkher/ui/packages/package.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+import '../choice_commentator/choice_commentator2.dart';
+import '../my_dream/dream_screen.dart';
 
 
 class Instructions extends StatelessWidget {
@@ -62,7 +68,7 @@ class Instructions extends StatelessWidget {
                        children: [
                          InkWell(
                            onTap: (){
-                             //Navigator.push(context, MaterialPageRoute(builder: (context)=>()));
+                             Navigator.push(context, MaterialPageRoute(builder: (context)=>DreamScreen()));
                            },
                            child: Container(
                              width: 150.0.w,
@@ -165,7 +171,7 @@ class Instructions extends StatelessWidget {
                      ),
                      InkWell(
                        onTap: (){
-                         Navigator.push(context, MaterialPageRoute(builder: (context)=>ChoiceCommentator()));
+                         Navigator.push(context, MaterialPageRoute(builder: (context)=>ChoiceCommentator2()));
                        },
                        child: Container(
                          padding: EdgeInsets.only(top: 10.0).r,
@@ -192,69 +198,93 @@ class Instructions extends StatelessWidget {
                      // nn 8c52ff
                      Row(
                        children: [
-                         CircleAvatar(
-                           backgroundColor: HexColor('c5302c') ,
-                           radius: 70.0.w,
-                           child: Column(
-                             children: [
-                               SizedBox(
-                                 height: 10.0.h,
+                         InkWell(
+                           onTap:() async{
+                             final url = 'https://wa.me/201507766395';
+
+                             if (await  canLaunch(url)){
+                               await launch(
+                                   url,
+                                 forceSafariVC: true, //For IOS
+                               );
+                             }
+                           },
+                             child: CircleAvatar(
+                               backgroundColor: HexColor('c5302c') ,
+                               radius: 70.0.w,
+                               child: Column(
+                                 children: [
+                                   SizedBox(
+                                     height: 10.0.h,
+                                   ),
+                                   Image.asset(
+                                     'Assets/image/whatsapp.png',
+                                     width: 50.0.w,
+                                     height: 50.0.h,
+                                   ),
+                                   Text(
+                                     'خدمه ',
+                                     style: TextStyle(
+                                       color: Colors.white,
+                                       fontSize: 20.0.sp,
+                                       fontWeight: FontWeight.bold,
+                                     ),
+                                   ),
+                                   Text(
+                                     'العملاء',
+                                     style: TextStyle(
+                                       color: Colors.white,
+                                       fontSize: 20.0.sp,
+                                       fontWeight: FontWeight.bold,
+                                     ),
+                                   ),
+                                 ],
                                ),
-                               Image.asset(
-                                   'Assets/image/whatsapp.png',
-                                 width: 50.0.w,
-                                 height: 50.0.h,
-                               ),
-                               Text(
-                                 'خدمه ',
-                                 style: TextStyle(
-                                   color: Colors.white,
-                                   fontSize: 20.0.sp,
-                                   fontWeight: FontWeight.bold,
-                                 ),
-                               ),
-                               Text(
-                                 'العملاء',
-                                 style: TextStyle(
-                                   color: Colors.white,
-                                   fontSize: 20.0.sp,
-                                   fontWeight: FontWeight.bold,
-                                 ),
-                               ),
-                             ],
+                             ),
                            ),
-                         ),
                          SizedBox(
                            width: 30.0.w,
                          ),
-                         CircleAvatar(
-                           backgroundColor: HexColor('8c52ff') ,
-                           radius: 70.0.w,
-                           child: Column(
-                             children: [
-                               Image.asset(
-                                 'Assets/image/arrow.png',
-                                 color: Colors.white,
-                                 width: 60.0.w,
-                                 height: 60.0.h,
-                               ),
-                               Text(
-                                 'شارك  ',
-                                 style: TextStyle(
+                         InkWell(
+                           onTap:() async{
+                             final url = 'http://play.google.com/store/apps/details?id=<package_name>';
+
+                             if (await  canLaunch(url)){
+                               await launch(
+                                   url,
+                                   forceSafariVC: true, //For IOS
+                                    );
+                             }
+                           },
+                           child: CircleAvatar(
+                             backgroundColor: HexColor('8c52ff') ,
+                             radius: 70.0.w,
+                             child: Column(
+                               children: [
+                                 Image.asset(
+                                   'Assets/image/arrow.png',
                                    color: Colors.white,
-                                   fontSize: 20.0.sp,
-                                   fontWeight: FontWeight.bold,
+                                   width: 60.0.w,
+                                   height: 60.0.h,
                                  ),
-                               ),
-                               Text(
-                                 'التطبيق',
-                                 style: TextStyle(
-                                   color: Colors.white,
-                                   fontSize: 20.0.sp,
-                                   fontWeight: FontWeight.bold,
+                                 Text(
+                                   'شارك  ',
+                                   style: TextStyle(
+                                     color: Colors.white,
+                                     fontSize: 20.0.sp,
+                                     fontWeight: FontWeight.bold,
+                                   ),
                                  ),
-                               ),
-                             ],
+                                 Text(
+                                   'التطبيق',
+                                   style: TextStyle(
+                                     color: Colors.white,
+                                     fontSize: 20.0.sp,
+                                     fontWeight: FontWeight.bold,
+                                   ),
+                                 ),
+                               ],
+                             ),
                            ),
                          ),
                        ],

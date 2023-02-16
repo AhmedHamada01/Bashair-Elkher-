@@ -41,9 +41,9 @@ Future<UserCredential> signInWithFacebook() async {
 Future<UserCredential> signInWithTwitter() async {
   // Create a TwitterLogin instance
   final twitterLogin = new TwitterLogin(
-      apiKey: '<your consumer key>',
-      apiSecretKey:' <your consumer secret>',
-      redirectURI: '<your_scheme>://'
+      apiKey: "jHeN9PPztnA3eK07dRyGzgBOn",
+      apiSecretKey:"Ra1NPvtvOzX3IM7QVJ5lPlOxKhdCckZtYj628azNuB3CR2e145",
+      redirectURI: 'flutter_twitter_login://'
   );
 
   // Trigger the sign-in flow

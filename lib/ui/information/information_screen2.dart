@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
-
 import '../nav_bar.dart';
 
 class InformationScreen2 extends StatelessWidget {
@@ -326,59 +325,72 @@ class InformationScreen2 extends StatelessWidget {
                           fontWeight: FontWeight.w600,
                         ),
                       ),
-                      TextFormField(
-                          keyboardType: TextInputType.text,
+                      Container(
+                        width: double.infinity,
+                        height: 180.0.h,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20.0).w,
+                          border: Border.all(
+                            color: HexColor('47B717'),
+                            width: 1.0.w,
+                          ),
+                        ),
+                        child: Text(
+                          '',
                           style: TextStyle(
                               color: Colors.black,
                               fontSize: 20.0.sp,
                               fontWeight: FontWeight.w600
                           ),
-                          cursorColor: Colors.black,
-                          decoration: InputDecoration(
-                            // hintText: 'بسم الله الرحمن الرحيم  ,'
-                            //     ' لقد رأيت فى المنام انى ..',
-                            // hintStyle: TextStyle(
-                            //     color: Colors.black,
-                            //     fontWeight: FontWeight.w600,
-                            //     fontSize: 16.0.sp
-                            // ),
-                            contentPadding: EdgeInsets.symmetric(vertical: 70.0).r,
-                            enabledBorder:OutlineInputBorder(
-                              borderSide: BorderSide(
-                                color: HexColor('47B717'),
-                              ),
-                              borderRadius: BorderRadius.circular(20.0).w,
-                            ),
-                            focusedBorder: OutlineInputBorder(
-                              borderSide: BorderSide(
-                                color: HexColor('47B717'),
-                              ),
-                              borderRadius: BorderRadius.circular(20.0).w,
-                            ),
-                            errorBorder:OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(20).w,
-                              borderSide: BorderSide(
-                                color: Colors.red,
-                              ),
-                            ),
-                            focusedErrorBorder:OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(20).w,
-                              borderSide: BorderSide(
-                                color: Colors.red,
-                              ),
-                            ),
-                            filled: true,
-                            fillColor: Colors.white,
-                          ),
-                          validator: (value)
-                          {
-                            if(value?.isEmpty ?? true )
-                            {
-                              return '' ;
-                            }
-                            return null ;
-                          }
+                        ),
                       ),
+                      // TextFormField(
+                      //     keyboardType: TextInputType.text,
+                      //     style: TextStyle(
+                      //         color: Colors.black,
+                      //         fontSize: 20.0.sp,
+                      //         fontWeight: FontWeight.w600
+                      //     ),
+                      //     cursorColor: Colors.black,
+                      //     decoration: InputDecoration(
+                      //       contentPadding: EdgeInsets.symmetric(vertical: 70.0).r,
+                      //       enabledBorder:OutlineInputBorder(
+                      //         borderSide: BorderSide(
+                      //           color: HexColor('47B717'),
+                      //         ),
+                      //         borderRadius: BorderRadius.circular(20.0).w,
+                      //       ),
+                      //       focusedBorder: OutlineInputBorder(
+                      //         borderSide: BorderSide(
+                      //           color: HexColor('47B717'),
+                      //         ),
+                      //         borderRadius: BorderRadius.circular(20.0).w,
+                      //       ),
+                      //       errorBorder:OutlineInputBorder(
+                      //         borderRadius: BorderRadius.circular(20).w,
+                      //         borderSide: BorderSide(
+                      //           color: Colors.red,
+                      //         ),
+                      //       ),
+                      //       focusedErrorBorder:OutlineInputBorder(
+                      //         borderRadius: BorderRadius.circular(20).w,
+                      //         borderSide: BorderSide(
+                      //           color: Colors.red,
+                      //         ),
+                      //       ),
+                      //       filled: true,
+                      //       fillColor: Colors.white,
+                      //     ),
+                      //     validator: (value)
+                      //     {
+                      //       if(value?.isEmpty ?? true )
+                      //       {
+                      //         return '' ;
+                      //       }
+                      //       return null ;
+                      //     }
+                      // ),
                       SizedBox(
                         height: 20.0.h,
                       ),

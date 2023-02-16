@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 Widget bottomNavBar() => BottomNavigationBar(
   selectedFontSize: 1.0.h,
@@ -8,17 +9,11 @@ Widget bottomNavBar() => BottomNavigationBar(
   iconSize: 50.0.w,
   items: [
     BottomNavigationBarItem(
-
       icon:Icon(
-
         Icons.arrow_back_ios_new_outlined,
-
         color: Colors.white,
-
       ) ,
-
       label: '',
-
     ),
     BottomNavigationBarItem(
 
@@ -205,5 +200,26 @@ Widget choiceCommentatorStar3 () =>  Row(
   ],
 );
 
+
+Widget NumberofContainer ({required Text,}) => Container(
+  width: 60.0.w,
+  height: 60.0.h,
+  decoration: BoxDecoration(
+    borderRadius: BorderRadius.circular(50.0).w,
+    border: Border.all(
+      color: HexColor('FABC05'),
+      width: 8.0.w,
+    ),
+  ),
+  child: Text(
+    textAlign: TextAlign.center,
+    '$Text',
+    style: TextStyle(
+        color: Colors.white,
+        fontSize: 35.0.sp,
+        fontWeight: FontWeight.w600
+    ),
+  ),
+);
 
 

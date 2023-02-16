@@ -30,7 +30,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!-- Accepts URIs that begin with "example://gizmos” -->
                 <!-- Registered Callback URLs in TwitterApp -->
-                <data android:scheme="example"
+                <data android:scheme="flutter_twitter_login"
                     android:host="gizmos" /> <!-- host is option -->
             </intent-filter>
         </activity>

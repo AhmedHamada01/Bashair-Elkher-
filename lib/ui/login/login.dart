@@ -82,6 +82,7 @@ class _loginState extends State<login> {
                           InkWell(
                             onTap: () async{
                               await signInWithTwitter();
+                              Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
                             },
                             child: Image.asset(
                               'Assets/image/twitter.png',

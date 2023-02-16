@@ -4,6 +4,9 @@ import 'package:bshair_elkher/ui/receiving_request/receiving_requests.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:url_launcher/url_launcher.dart';
+
+import '../my_dream/dream_screen.dart';
 
 
 class Profile extends StatelessWidget {
@@ -171,21 +174,26 @@ class Profile extends StatelessWidget {
                   SizedBox(
                     height: 10.0.h,
                   ),
-                  Container(
-                    margin: EdgeInsets.only(left: 50.0,right: 50.0).r,
-                    width: double.infinity,
-                    height: 70.0.h,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(30.0).w,
-                      color: HexColor('1b9ef0'),
-                    ),
-                    child: Text(
-                      textAlign: TextAlign.center,
-                      'احلامى ',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 40.0.sp,
-                        fontWeight: FontWeight.bold,
+                  InkWell(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>DreamScreen()));
+                    },
+                    child: Container(
+                      margin: EdgeInsets.only(left: 50.0,right: 50.0).r,
+                      width: double.infinity,
+                      height: 70.0.h,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(30.0).w,
+                        color: HexColor('1b9ef0'),
+                      ),
+                      child: Text(
+                        textAlign: TextAlign.center,
+                        'احلامى ',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 40.0.sp,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ),
@@ -260,34 +268,46 @@ class Profile extends StatelessWidget {
                       SizedBox(
                         width: 30.0.w,
                       ),
-                      CircleAvatar(
-                        backgroundColor: HexColor('8c52ff') ,
-                        radius: 70.0.w,
-                        child: Column(
-                          children: [
-                            Image.asset(
-                              'Assets/image/arrow.png',
-                              color: Colors.white,
-                              width: 60.0.w,
-                              height: 60.0.h,
-                            ),
-                            Text(
-                              'شارك  ',
-                              style: TextStyle(
+                      InkWell(
+                        onTap:() async{
+                          final url = 'http://play.google.com/store/apps/details?id=<package_name>';
+
+                          if (await  canLaunch(url)){
+                            await launch(
+                              url,
+                              forceSafariVC: true, //For IOS
+                            );
+                          }
+                        },
+                        child: CircleAvatar(
+                          backgroundColor: HexColor('8c52ff') ,
+                          radius: 70.0.w,
+                          child: Column(
+                            children: [
+                              Image.asset(
+                                'Assets/image/arrow.png',
                                 color: Colors.white,
-                                fontSize: 20.0.sp,
-                                fontWeight: FontWeight.bold,
+                                width: 60.0.w,
+                                height: 60.0.h,
                               ),
-                            ),
-                            Text(
-                              'التطبيق',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20.0.sp,
-                                fontWeight: FontWeight.bold,
+                              Text(
+                                'شارك  ',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20.0.sp,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
-                            ),
-                          ],
+                              Text(
+                                'التطبيق',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 20.0.sp,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ],

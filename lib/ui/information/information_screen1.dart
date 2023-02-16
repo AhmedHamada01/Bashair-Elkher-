@@ -1,4 +1,5 @@
 
+import 'package:bshair_elkher/ui/information/information_screen2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -543,6 +544,7 @@ class InformationScreen1 extends StatelessWidget {
                             height: 25.0.h,
                           ) ,
                           onPressed: (){
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>InformationScreen2()));
                           },
                           style: ElevatedButton.styleFrom(
                             primary: Colors.blue[400],
