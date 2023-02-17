@@ -14,12 +14,26 @@ import '../choice_commentator/choice_commentator2.dart';
 import '../my_dream/dream_screen.dart';
 
 
-class Instructions extends StatelessWidget {
+class Instructions extends StatefulWidget {
 
+  @override
+  State<Instructions> createState() => _InstructionsState();
+}
+
+class _InstructionsState extends State<Instructions> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNavBar(),
+      bottomNavigationBar: bottomNavBar(
+        onTap: (index) {
+          if (index==0){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
+          }
+          setState(() {
+            currentIndex = index ;
+          });
+        } ,
+      ),
       body: Directionality(
         textDirection: TextDirection.rtl,
         child: Stack(

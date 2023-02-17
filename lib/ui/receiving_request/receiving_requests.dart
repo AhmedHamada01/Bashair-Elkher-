@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import '../instructions/instructions.dart';
+
 
 class ReceivingRequests extends StatefulWidget {
 
@@ -21,7 +23,18 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNavBar(),
+      bottomNavigationBar: bottomNavBar(
+        onTap: (index) {
+          if (index==2){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
+          }if(index==0){
+            Navigator.pop(context);
+          }
+          setState(() {
+            currentIndex = index ;
+          });
+        } ,
+      ),
       body: Directionality(
         textDirection: TextDirection.rtl,
         child: Stack(

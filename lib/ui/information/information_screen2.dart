@@ -2,16 +2,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
+import '../instructions/instructions.dart';
 import '../nav_bar.dart';
 
-class InformationScreen2 extends StatelessWidget {
+class InformationScreen2 extends StatefulWidget {
 
+  @override
+  State<InformationScreen2> createState() => _InformationScreen2State();
+}
+
+class _InformationScreen2State extends State<InformationScreen2> {
   var Formkey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNavBar(),
+      bottomNavigationBar: bottomNavBar(
+        onTap: (index) {
+          if (index==2){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
+          }if(index==0){
+            Navigator.pop(context);
+          }
+          setState(() {
+            currentIndex = index ;
+          });
+        } ,
+      ),
       body: Directionality(
         textDirection: TextDirection.rtl,
         child: Form(

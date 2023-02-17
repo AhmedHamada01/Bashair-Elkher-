@@ -4,13 +4,31 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
 
+import '../instructions/instructions.dart';
 
-class Ibrahim extends StatelessWidget {
 
+class Ibrahim extends StatefulWidget {
+
+  @override
+  State<Ibrahim> createState() => _IbrahimState();
+}
+
+class _IbrahimState extends State<Ibrahim> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNavBar(),
+      bottomNavigationBar: bottomNavBar(
+        onTap: (index) {
+          if (index==2){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
+          }if(index==0){
+            Navigator.pop(context);
+          }
+          setState(() {
+            currentIndex = index ;
+          });
+        } ,
+      ),
       body: Directionality(
         textDirection: TextDirection.rtl,
         child: SingleChildScrollView(

@@ -3,10 +3,57 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
 
-Widget bottomNavBar() => BottomNavigationBar(
+int currentIndex = 0 ;
+Widget bottomNavBar({required onTap}) => BottomNavigationBar(
+  onTap: onTap,
   selectedFontSize: 1.0.h,
   backgroundColor: Colors.blue,
   iconSize: 50.0.w,
+  currentIndex: currentIndex,
+  items: [
+    BottomNavigationBarItem(
+      icon:Icon(
+        Icons.arrow_back_ios_new_outlined,
+        color: Colors.white,
+      ) ,
+      label: '',
+    ),
+    BottomNavigationBarItem(
+
+      icon:Icon(
+
+        Icons.notifications,
+
+        color: Colors.white,
+
+      ) ,
+
+      label: '',
+
+    ),
+    BottomNavigationBarItem(
+
+      icon:Icon(
+
+        Icons.home,
+
+        color: Colors.white,
+
+      ) ,
+
+      label: '',
+
+    ),
+  ],
+
+);
+
+Widget bottomNavBarCommentator({required onTap}) => BottomNavigationBar(
+  onTap: onTap,
+  selectedFontSize: 1.0.h,
+  backgroundColor: Colors.blue,
+  iconSize: 50.0.w,
+  currentIndex: currentIndex,
   items: [
     BottomNavigationBarItem(
       icon:Icon(

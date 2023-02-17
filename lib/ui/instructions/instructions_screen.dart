@@ -10,7 +10,6 @@ class InstructionsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNavBar(),
       body: Directionality(
         textDirection: TextDirection.rtl,
         child: SingleChildScrollView(
