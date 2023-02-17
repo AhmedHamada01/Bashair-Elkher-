@@ -252,7 +252,7 @@ class _ChoiceCommentator2State extends State<ChoiceCommentator2> {
                               SizedBox(
                                 height: 20.0.h,
                               ),
-                              choiceCommentatorStar2()
+                              choiceCommentatorStar5()
                             ],
                           ),
                         ),
@@ -384,7 +384,7 @@ class _ChoiceCommentator2State extends State<ChoiceCommentator2> {
                               SizedBox(
                                 height: 20.0.h,
                               ),
-                              choiceCommentatorStar3()
+                              choiceCommentatorStar5()
                             ],
                           ),
                         ),
@@ -448,7 +448,7 @@ class _ChoiceCommentator2State extends State<ChoiceCommentator2> {
                               SizedBox(
                                 height: 20.0.h,
                               ),
-                              choiceCommentatorStar3()
+                              choiceCommentatorStar5()
                             ],
                           ),
                         ),

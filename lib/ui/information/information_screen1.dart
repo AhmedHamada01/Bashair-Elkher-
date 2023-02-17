@@ -562,7 +562,7 @@ class _InformationScreen1State extends State<InformationScreen1> {
                             height: 25.0.h,
                           ) ,
                           onPressed: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>InformationScreen2()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
                           },
                           style: ElevatedButton.styleFrom(
                             primary: Colors.blue[400],

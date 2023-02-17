@@ -1,4 +1,5 @@
 
+import 'package:bshair_elkher/ui/information/information_screen2.dart';
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
@@ -76,52 +77,57 @@ class _DreamsCommentatorInProgressState extends State<DreamsCommentatorInProgres
                     SizedBox(
                       height: 30.0.h,
                     ),
-                    Row(
-                      children: [
-                        Container(
-                          width: 60.0.w,
-                          height: 60.0.h,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(50.0).w,
-                            border: Border.all(
-                              color: HexColor('FABC05'),
-                              width: 8.0.w,
+                    InkWell(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>InformationScreen2()));
+                      },
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 60.0.w,
+                            height: 60.0.h,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(50.0).w,
+                              border: Border.all(
+                                color: HexColor('FABC05'),
+                                width: 8.0.w,
+                              ),
+                            ),
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              '1',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 35.0.sp,
+                                  fontWeight: FontWeight.w600
+                              ),
                             ),
                           ),
-                          child: Text(
-                            textAlign: TextAlign.center,
-                            '1',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 35.0.sp,
-                                fontWeight: FontWeight.w600
+                          SizedBox(
+                            width: 15.0.w,
+                          ),
+                          Container(
+                            width: 240.0.w,
+                            height: 60.0.h,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(30.0).w,
+                              border: Border.all(
+                                color: HexColor('FABC05'),
+                                width: 7.0.w,
+                              ),
+                            ),
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              '',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 35.0.sp,
+                                  fontWeight: FontWeight.w600
+                              ),
                             ),
                           ),
-                        ),
-                        SizedBox(
-                          width: 15.0.w,
-                        ),
-                        Container(
-                          width: 240.0.w,
-                          height: 60.0.h,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(30.0).w,
-                            border: Border.all(
-                              color: HexColor('FABC05'),
-                              width: 7.0.w,
-                            ),
-                          ),
-                          child: Text(
-                            textAlign: TextAlign.center,
-                            '',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 35.0.sp,
-                                fontWeight: FontWeight.w600
-                            ),
-                          ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                     SizedBox(
                       height: 20.0.h,

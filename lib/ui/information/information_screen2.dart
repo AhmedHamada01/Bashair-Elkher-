@@ -1,4 +1,5 @@
 
+import 'package:bshair_elkher/ui/profile/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -501,6 +502,7 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                 height: 25.0.h,
                               ) ,
                               onPressed: (){
+                                Navigator.push(context, MaterialPageRoute(builder: (context)=>Profile()));
                               },
                               style: ElevatedButton.styleFrom(
                                 padding: EdgeInsets.only(left: 15.0,right: 15.0,top: 10.0,bottom: 10.0).r,

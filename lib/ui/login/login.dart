@@ -139,7 +139,7 @@ class _loginState extends State<login> {
                       Padding(
                         padding: const EdgeInsets.only(right: 20.0,bottom: 20.0).r,
                         child: Text(
-                          ' من فضلك ادخل كود التفسير ',
+                          ' من فضلك ادخل كود المفسر ',
                           style: TextStyle(
                             color: HexColor('FABC05'),
                             fontWeight: FontWeight.w600,
@@ -190,7 +190,7 @@ class _loginState extends State<login> {
                             {
                               if(value?.isEmpty ?? true )
                               {
-                                return 'كود التفسير غير موجود' ;
+                                return 'كود المفسر غير موجود' ;
                               }
                               return null ;
                             }

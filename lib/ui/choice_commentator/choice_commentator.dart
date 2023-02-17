@@ -1,4 +1,3 @@
-
 import 'package:bshair_elkher/ui/commentators/abdulrahman.dart';
 import 'package:bshair_elkher/ui/commentators/abo_yehia.dart';
 import 'package:bshair_elkher/ui/commentators/ibrahim.dart';
@@ -12,12 +11,10 @@ import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hexcolor/hexcolor.dart';
-
 import '../instructions/instructions.dart';
 
 
 class ChoiceCommentator extends StatefulWidget {
-
   @override
   State<ChoiceCommentator> createState() => _ChoiceCommentatorState();
 }
@@ -260,7 +257,7 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               SizedBox(
                                 height: 20.0.h,
                               ),
-                              choiceCommentatorStar2()
+                              choiceCommentatorStar5()
                             ],
                           ),
                         ),
@@ -392,7 +389,7 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               SizedBox(
                                 height: 20.0.h,
                               ),
-                              choiceCommentatorStar3()
+                              choiceCommentatorStar5()
                             ],
                           ),
                         ),
@@ -456,7 +453,7 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               SizedBox(
                                 height: 20.0.h,
                               ),
-                              choiceCommentatorStar3()
+                              choiceCommentatorStar5()
                             ],
                           ),
                         ),
