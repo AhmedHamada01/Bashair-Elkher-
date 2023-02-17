@@ -8,6 +8,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../instructions/instructions.dart';
 import '../my_dream/dream_screen.dart';
+import '../my_dream_commentator/dream_commentator_screen.dart';
 
 
 class Profile extends StatefulWidget {
@@ -20,7 +21,7 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: bottomNavBar(
+      bottomNavigationBar: bottomNavBarCommentator(
         onTap: (index) {
           if (index==2){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
@@ -193,7 +194,7 @@ class _ProfileState extends State<Profile> {
                   ),
                   InkWell(
                     onTap: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=>DreamScreen()));
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>DreamCommentatorScreen()));
                     },
                     child: Container(
                       margin: EdgeInsets.only(left: 50.0,right: 50.0).r,
