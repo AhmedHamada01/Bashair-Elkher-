@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -77,18 +78,18 @@ class _OsamaState extends State<Osama> {
                       children: [
                         Text(
                           " المفسر الشيخ / اسامه قنديل  ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 14.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
                         Text(
                               "اكثر من 20 عام من الخبره "
                               "مفسر و محفظ قرآن  ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 13.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
@@ -106,8 +107,8 @@ class _OsamaState extends State<Osama> {
                     ),
                     child: Text(
                       '. محفظ للقرآن الكريم',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -124,8 +125,8 @@ class _OsamaState extends State<Osama> {
                     ),
                     child: Text(
                       '. اكثر من 20 عام من الخبره ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -143,8 +144,8 @@ class _OsamaState extends State<Osama> {
                     child: Text(
                       '. حاصل على إجازه حفص من الأزهر'
                           ' الشريف و بإتصال السند للرسول',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -157,8 +158,8 @@ class _OsamaState extends State<Osama> {
                     padding: const EdgeInsets.only(left: 200.0).r,
                     child: Text(
                       'التقييم',
-                      style: TextStyle(
-                          fontSize: 30.0.sp,
+                      style:  GoogleFonts.notoKufiArabic(
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.bold,
                           color: Colors.white
                       ),

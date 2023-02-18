@@ -3,6 +3,7 @@ import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -48,23 +49,23 @@ class _DreamsInProgressState extends State<DreamsInProgress> {
                   children: [
                     Text(
                       'احلام تحت التنفيذ ',
-                      style: TextStyle(
-                          fontSize: 40.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 30.0.sp,
                           fontWeight: FontWeight.w700,
                           color: Colors.white
                       ),
                     ),
                     EasyRichText(
                       "العدد : 3 احلام",
-                      defaultStyle: TextStyle(
-                          fontSize: 40.0.sp,
+                      defaultStyle: GoogleFonts.notoKufiArabic(
+                          fontSize: 30.0.sp,
                           fontWeight: FontWeight.w700,
                           color: Colors.white
                       ),
                       patternList: [
                         EasyRichTextPattern(
                           targetString: '3 احلام',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: HexColor('FABC05'),
                               fontSize: 32.0.sp,
                               fontWeight: FontWeight.bold
@@ -113,9 +114,9 @@ class _DreamsInProgressState extends State<DreamsInProgress> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -163,9 +164,9 @@ class _DreamsInProgressState extends State<DreamsInProgress> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -213,9 +214,9 @@ class _DreamsInProgressState extends State<DreamsInProgress> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),

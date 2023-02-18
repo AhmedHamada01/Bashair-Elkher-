@@ -3,6 +3,7 @@ import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 
@@ -34,8 +35,8 @@ class InstructionsScreen extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 100.0,top: 35.0).r,
                 child: Text(
                   'بشائر الخيرات ',
-                  style: TextStyle(
-                    fontSize: 40.0.sp,
+                  style: GoogleFonts.notoKufiArabic(
+                    fontSize: 35.0.sp,
                     fontWeight: FontWeight.w400,
                     //fontFamily: 'Outfit-Medium.ttf',
                     color: Colors.white,
@@ -46,9 +47,9 @@ class InstructionsScreen extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 115.0,top: 95.0).r,
                 child: Text(
                   '\" يَا أَبَتِ هَٰذَا تَأْوِيلُ رُؤْيَايَ\"',
-                  style: TextStyle(
+                  style: GoogleFonts.notoKufiArabic(
                       color: HexColor('FABC05'),
-                      fontSize: 16.0.sp
+                      fontSize: 13.0.sp
                   ),
                 ),
               ),
@@ -56,8 +57,8 @@ class InstructionsScreen extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 95.0,top: 125.0).r,
                 child: Text(
                   'الارشادات' ,
-                  style: TextStyle(
-                    fontSize: 40.0.sp,
+                  style: GoogleFonts.notoKufiArabic(
+                    fontSize: 35.0.sp,
                     fontWeight: FontWeight.w500,
                     //fontFamily: 'Outfit-Medium.ttf',
                     color: HexColor('55e8Fc'),
@@ -71,9 +72,9 @@ class InstructionsScreen extends StatelessWidget {
                   children: [
                     Text(
                       ' عميلنا العزيز ',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 25.0.sp,
+                          fontSize: 20.0.sp,
                           fontWeight: FontWeight.bold
                       ),
                     ),
@@ -83,9 +84,9 @@ class InstructionsScreen extends StatelessWidget {
                     EasyRichText(
                       " . زر (أحلامى) يعرض لك أحلامك السابقه بالتطبيق التى "
                           "فسرت و التى تحت التنفيذ ",
-                      defaultStyle: TextStyle(
+                      defaultStyle: GoogleFonts.notoKufiArabic(
                         color: Colors.white,
-                        fontSize: 19.0.sp,
+                        fontSize: 15.0.sp,
                         fontWeight: FontWeight.w800
                     ),
                       patternList: [
@@ -101,9 +102,9 @@ class InstructionsScreen extends StatelessWidget {
                     EasyRichText(
                       " . زر (رصيدي) يمكنك من الاطلاع على رصيدك  "
                           "الحالى و يمكنك من شحن رصيد .",
-                      defaultStyle: TextStyle(
+                      defaultStyle: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                       patternList: [
@@ -119,10 +120,10 @@ class InstructionsScreen extends StatelessWidget {
                     EasyRichText(
                       " . زر (المفسرون) يعرفك على المفسرين بالتطبيق  "
                           "و خبراتهم فى مجال التفسير  .",
-                      defaultStyle: TextStyle(
+                      defaultStyle: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
-                          fontWeight: FontWeight.bold
+                          fontSize: 15.0.sp,
+                          fontWeight: FontWeight.w800
                       ),
                       patternList: [
                         EasyRichTextPattern(
@@ -137,9 +138,9 @@ class InstructionsScreen extends StatelessWidget {
                     EasyRichText(
                       " . زر (خدمات التطبيق) يعرفك بانواع الرؤى   "
                           "و اسعارها و زمن تفسيرها   .",
-                      defaultStyle: TextStyle(
+                      defaultStyle: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                       patternList: [
@@ -155,9 +156,9 @@ class InstructionsScreen extends StatelessWidget {
                     EasyRichText(
                       " . زر (طلب تفسير حلمى ) من خلاله تستطيع    "
                           "كتابه و تفسير حلمك بسهوله   .",
-                      defaultStyle: TextStyle(
+                      defaultStyle: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                       patternList: [
@@ -173,9 +174,9 @@ class InstructionsScreen extends StatelessWidget {
                     EasyRichText(
                       " . زر (خدمه العملاء ) يقدم لك المساعده "
                           "فى اى مشكله تواجهك او الرد على استفسارك   .",
-                      defaultStyle: TextStyle(
+                      defaultStyle: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                       patternList: [
@@ -191,9 +192,9 @@ class InstructionsScreen extends StatelessWidget {
                     EasyRichText(
                       " . زر (شارك التطبيق ) هذا تكرما منك لدعم  "
                           "التطبيق و الجهد المبذول فى تقديم خدمه مميزه .",
-                      defaultStyle: TextStyle(
+                      defaultStyle: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                       patternList: [

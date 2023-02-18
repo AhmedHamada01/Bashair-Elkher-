@@ -3,6 +3,7 @@ import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -72,8 +73,8 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                           child: Text(
                             textAlign: TextAlign.center,
                             'ضبط استقبال الطلبات ',
-                            style: TextStyle(
-                                fontSize: 25.0.sp,
+                            style: GoogleFonts.notoKufiArabic(
+                                fontSize: 18.0.sp,
                                 fontWeight: FontWeight.w800
                             ),
                           ),
@@ -101,15 +102,15 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               Text(
                                 textAlign: TextAlign.center,
                                 'اغلاق تلقى جميع الطلبات  ',
-                                style: TextStyle(
-                                    fontSize: 20.0.sp,
+                                style: GoogleFonts.notoKufiArabic(
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.bold
                                 ),
                               ),
                               Text(
                                 'عند قفل الزر , لن تتلقى  ',
-                                style: TextStyle(
-                                    fontSize: 20.0.sp,
+                                style: GoogleFonts.notoKufiArabic(
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.bold
                                 ),
                               ),
@@ -117,8 +118,8 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
 
                                 textAlign: TextAlign.center,
                                 'اى طلبات للتفسير  ',
-                                style: TextStyle(
-                                    fontSize: 20.0.sp,
+                                style: GoogleFonts.notoKufiArabic(
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.bold
                                 ),
                               ),
@@ -160,9 +161,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               ),
                               Text(
                                 'رؤيا عاديه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -170,9 +171,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               ),
                               Text(
                                 '20 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -193,9 +194,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                           ),
                           Text(
                             'يتم التفسير خلال 24 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],
@@ -222,9 +223,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                             children: [
                               Text(
                                 'رؤيا فضيه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -232,9 +233,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               ),
                               Text(
                                 '30 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -255,9 +256,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                           ),
                           Text(
                             'يتم التفسير خلال 12 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],
@@ -284,9 +285,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                             children: [
                               Text(
                                 'رؤيا ذهبيه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -294,9 +295,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               ),
                               Text(
                                 '40 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -317,9 +318,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                           ),
                           Text(
                             'يتم التفسير خلال 6 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],
@@ -346,9 +347,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                             children: [
                               Text(
                                 'رؤيا فوريه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -356,9 +357,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                               ),
                               Text(
                                 '50 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -379,9 +380,9 @@ class _ReceivingRequestsState extends State<ReceivingRequests> {
                           ),
                           Text(
                             'يتم التفسير خلال 3 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],

@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -69,8 +70,8 @@ class _PackagesState extends State<Packages> {
                             children: [
                               Text(
                                 'عميلنا العزيز ',
-                                style: TextStyle(
-                                    fontSize: 20.0.sp,
+                                style: GoogleFonts.notoKufiArabic(
+                                    fontSize: 15.0.sp,
                                     fontWeight: FontWeight.w800
                                 ),
                               ),
@@ -78,8 +79,8 @@ class _PackagesState extends State<Packages> {
                                 textAlign: TextAlign.center,
                                 'التطبيق يقدم لك باقه متنوعه '
                                     ' من  الخدمات تتناسب مع كل الاحتياجات ',
-                                style: TextStyle(
-                                    fontSize: 17.0.sp,
+                                style: GoogleFonts.notoKufiArabic(
+                                    fontSize: 13.0.sp,
                                     fontWeight: FontWeight.w600
                                 ),
                               ),
@@ -107,9 +108,9 @@ class _PackagesState extends State<Packages> {
                             children: [
                               Text(
                                 'رؤيا عاديه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -117,18 +118,18 @@ class _PackagesState extends State<Packages> {
                               ),
                               Text(
                                 '20 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                             ],
                           ),
                           Text(
                             'يتم التفسير خلال 24 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],
@@ -155,9 +156,9 @@ class _PackagesState extends State<Packages> {
                             children: [
                               Text(
                                 'رؤيا فضيه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -165,18 +166,18 @@ class _PackagesState extends State<Packages> {
                               ),
                               Text(
                                 '30 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                             ],
                           ),
                           Text(
                             'يتم التفسير خلال 12 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],
@@ -203,9 +204,9 @@ class _PackagesState extends State<Packages> {
                             children: [
                               Text(
                                 'رؤيا ذهبيه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -213,18 +214,18 @@ class _PackagesState extends State<Packages> {
                               ),
                               Text(
                                 '40 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                             ],
                           ),
                           Text(
                             'يتم التفسير خلال 6 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],
@@ -251,9 +252,9 @@ class _PackagesState extends State<Packages> {
                             children: [
                               Text(
                                 'رؤيا فوريه ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 13.0.sp,
                                 ),
                               ),
                               SizedBox(
@@ -261,18 +262,18 @@ class _PackagesState extends State<Packages> {
                               ),
                               Text(
                                 '50 ريال ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   fontWeight: FontWeight.w800,
-                                  fontSize: 18.0.sp,
+                                  fontSize: 15.0.sp,
                                 ),
                               ),
                             ],
                           ),
                           Text(
                             'يتم التفسير خلال 3 ساعه ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               fontWeight: FontWeight.w800,
-                              fontSize: 18.0.sp,
+                              fontSize: 15.0.sp,
                             ),
                           ),
                         ],

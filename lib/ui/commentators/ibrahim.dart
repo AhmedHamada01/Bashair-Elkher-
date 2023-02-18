@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -77,18 +78,18 @@ class _IbrahimState extends State<Ibrahim> {
                       children: [
                         Text(
                           " المفسر / ابراهيم الجنابى     ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 14.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
                         Text(
                               "اكثر من 15 عام من الخبره "
                               "واعظ و مدرس",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 13.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
@@ -109,8 +110,8 @@ class _IbrahimState extends State<Ibrahim> {
                     ),
                     child: Text(
                       '.خبره اكثر من 15 عام فى تفسير الاحلام   ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -128,8 +129,8 @@ class _IbrahimState extends State<Ibrahim> {
                     child: Text(
                       '. حاصل على شهادتى دكتوراه فى الشريعه '
                           'بتقدير امتياز مع مرتبه الشرف الاولى  ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -149,16 +150,16 @@ class _IbrahimState extends State<Ibrahim> {
                       children: [
                         Text(
                           '. كتب مطبوعه و ابحاث محكمه   ',
-                          style: TextStyle(
-                            fontSize: 18.0.sp,
+                          style: GoogleFonts.notoKufiArabic(
+                            fontSize: 14.0.sp,
                             fontWeight: FontWeight.w700,
 
                           ),
                         ),
                         Text(
                               ' . شخصيه مشهوره فى علم التفسير ',
-                          style: TextStyle(
-                            fontSize: 18.0.sp,
+                          style: GoogleFonts.notoKufiArabic(
+                            fontSize: 14.0.sp,
                             fontWeight: FontWeight.w700,
 
                           ),
@@ -178,8 +179,8 @@ class _IbrahimState extends State<Ibrahim> {
                     child: Text(
                       ' . خبره طويله فى التدريس  '
                           'الجامعى و الوعظ و الارشاد  ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -192,8 +193,8 @@ class _IbrahimState extends State<Ibrahim> {
                     padding: const EdgeInsets.only(left: 200.0).r,
                     child: Text(
                       'التقييم',
-                      style: TextStyle(
-                          fontSize: 30.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.bold,
                           color: Colors.white
                       ),

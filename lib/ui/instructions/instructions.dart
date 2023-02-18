@@ -7,6 +7,7 @@ import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:bshair_elkher/ui/packages/package.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -68,8 +69,8 @@ class _InstructionsState extends State<Instructions> {
                          child: Text(
                            textAlign: TextAlign.center,
                            'ارشادات التطبيق ',
-                           style: TextStyle(
-                             fontSize: 30.0.sp,
+                           style: GoogleFonts.notoKufiArabic(
+                             fontSize: 25.0.sp,
                              fontWeight: FontWeight.w600,
                            ),
                          ),
@@ -94,9 +95,9 @@ class _InstructionsState extends State<Instructions> {
                              child: Text(
                                textAlign: TextAlign.center,
                                'احلامى ',
-                               style: TextStyle(
+                               style: GoogleFonts.notoKufiArabic(
                                  color: Colors.white,
-                                 fontSize: 33.0.sp,
+                                 fontSize: 28.0.sp,
                                  fontWeight: FontWeight.bold,
                                ),
                              ),
@@ -119,9 +120,9 @@ class _InstructionsState extends State<Instructions> {
                              child: Text(
                                textAlign: TextAlign.center,
                                'رصيدى ',
-                               style: TextStyle(
+                               style: GoogleFonts.notoKufiArabic(
                                  color: Colors.white,
-                                 fontSize: 33.0.sp,
+                                 fontSize: 28.0.sp,
                                  fontWeight: FontWeight.bold,
                                ),
                              ),
@@ -146,9 +147,9 @@ class _InstructionsState extends State<Instructions> {
                          child: Text(
                            textAlign: TextAlign.center,
                            'المفسرون ',
-                           style: TextStyle(
+                           style: GoogleFonts.notoKufiArabic(
                              color: Colors.white,
-                             fontSize: 33.0.sp,
+                             fontSize: 28.0.sp,
                              fontWeight: FontWeight.bold,
                            ),
                          ),
@@ -172,9 +173,9 @@ class _InstructionsState extends State<Instructions> {
                          child: Text(
                            textAlign: TextAlign.center,
                            'خدمات التطبيق  ',
-                           style: TextStyle(
+                           style: GoogleFonts.notoKufiArabic(
                              color: Colors.white,
-                             fontSize: 33.0.sp,
+                             fontSize: 28.0.sp,
                              fontWeight: FontWeight.bold,
                            ),
                          ),
@@ -198,8 +199,8 @@ class _InstructionsState extends State<Instructions> {
                          child: Text(
                            textAlign: TextAlign.center,
                            'طلب تفسير حلمي  ',
-                           style: TextStyle(
-                             fontSize: 33.0.sp,
+                           style: GoogleFonts.notoKufiArabic(
+                             fontSize: 28.0.sp,
                              fontWeight: FontWeight.bold,
                            ),
                          ),
@@ -238,17 +239,17 @@ class _InstructionsState extends State<Instructions> {
                                    ),
                                    Text(
                                      'خدمه ',
-                                     style: TextStyle(
+                                     style: GoogleFonts.notoKufiArabic(
                                        color: Colors.white,
-                                       fontSize: 20.0.sp,
+                                       fontSize: 15.0.sp,
                                        fontWeight: FontWeight.bold,
                                      ),
                                    ),
                                    Text(
                                      'العملاء',
-                                     style: TextStyle(
+                                     style: GoogleFonts.notoKufiArabic(
                                        color: Colors.white,
-                                       fontSize: 20.0.sp,
+                                       fontSize: 15.0.sp,
                                        fontWeight: FontWeight.bold,
                                      ),
                                    ),
@@ -283,17 +284,17 @@ class _InstructionsState extends State<Instructions> {
                                  ),
                                  Text(
                                    'شارك  ',
-                                   style: TextStyle(
+                                   style: GoogleFonts.notoKufiArabic(
                                      color: Colors.white,
-                                     fontSize: 20.0.sp,
+                                     fontSize: 15.0.sp,
                                      fontWeight: FontWeight.bold,
                                    ),
                                  ),
                                  Text(
                                    'التطبيق',
-                                   style: TextStyle(
+                                   style: GoogleFonts.notoKufiArabic(
                                      color: Colors.white,
-                                     fontSize: 20.0.sp,
+                                     fontSize: 15.0.sp,
                                      fontWeight: FontWeight.bold,
                                    ),
                                  ),

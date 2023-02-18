@@ -4,6 +4,7 @@ import 'package:bshair_elkher/ui/profile/profile.dart';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -49,23 +50,23 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                   children: [
                     Text(
                       'احلام تم تفسيرها',
-                      style: TextStyle(
-                          fontSize: 40.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 30.0.sp,
                           fontWeight: FontWeight.w700,
                           color: Colors.white
                       ),
                     ),
                     EasyRichText(
                       "العدد : 9 حلم",
-                      defaultStyle: TextStyle(
-                          fontSize: 40.0.sp,
+                      defaultStyle: GoogleFonts.notoKufiArabic(
+                          fontSize: 30.0.sp,
                           fontWeight: FontWeight.w700,
                           color: Colors.white
                       ),
                       patternList: [
                         EasyRichTextPattern(
                           targetString: '9 حلم',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: HexColor('FABC05'),
                               fontSize: 32.0.sp,
                               fontWeight: FontWeight.bold
@@ -114,9 +115,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -164,9 +165,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -214,9 +215,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -264,9 +265,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -314,9 +315,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -364,9 +365,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -414,9 +415,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -464,9 +465,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),
@@ -514,9 +515,9 @@ class _DreamsCommentatorFinishedState extends State<DreamsCommentatorFinished> {
                           child: Text(
                             textAlign: TextAlign.center,
                             '',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 35.0.sp,
+                                fontSize: 28.0.sp,
                                 fontWeight: FontWeight.w600
                             ),
                           ),

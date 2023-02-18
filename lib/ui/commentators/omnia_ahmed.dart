@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -77,17 +78,17 @@ class _OmniaAhmedState extends State<OmniaAhmed> {
                       children: [
                         Text(
                           " المفسره   /   أمنيه أحمد  ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 15.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
                         Text(
                               " اكثر من  20 عام من الخبره فى تفسير الرؤى و الاحلام  " ,
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 13.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
@@ -106,8 +107,8 @@ class _OmniaAhmedState extends State<OmniaAhmed> {
                     child: Text(
                       '. خبره 20 عام فى تفسير الاحلام من منظور  '
                           '(دينى و اجتماعى و نفسي )',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -124,8 +125,8 @@ class _OmniaAhmedState extends State<OmniaAhmed> {
                     ),
                     child: Text(
                       '. اكثر من 20 عام من الخبره ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -135,7 +136,7 @@ class _OmniaAhmedState extends State<OmniaAhmed> {
                     padding: EdgeInsets.all(5.0).r,
                     margin: EdgeInsets.only(left: 20.0,right: 20.0,top: 10).r,
                     width: double.infinity,
-                    height: 85.0.h,
+                    height: 120.0.h,
                     decoration: BoxDecoration(
                       color: HexColor('55E8FC'),
                       borderRadius: BorderRadius.circular(15.0).w,
@@ -145,8 +146,8 @@ class _OmniaAhmedState extends State<OmniaAhmed> {
                           'الرؤى و الاحلام و توصيل الرساله '
                           'للرأى بالشكل الصحيح الايجاى '
                           'الدقيق من الكتاب و السنه النبويه  ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -156,8 +157,8 @@ class _OmniaAhmedState extends State<OmniaAhmed> {
                     padding: const EdgeInsets.only(left: 200.0).r,
                     child: Text(
                       'التقييم',
-                      style: TextStyle(
-                          fontSize: 30.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.bold,
                           color: Colors.white
                       ),

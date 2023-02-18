@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 
@@ -25,8 +26,8 @@ class WhoUs extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 75.0,top: 35.0).r,
                 child: Text(
                   'بشائر الخيرات ',
-                  style: TextStyle(
-                    fontSize: 40.0.sp,
+                  style: GoogleFonts.notoKufiArabic(
+                    fontSize: 35.0.sp,
                     fontWeight: FontWeight.w400,
                     //fontFamily: 'Outfit-Medium.ttf',
                     color: Colors.white,
@@ -37,9 +38,9 @@ class WhoUs extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 95.0,top: 95.0).r,
                 child: Text(
                   '\" يَا أَبَتِ هَٰذَا تَأْوِيلُ رُؤْيَايَ\"',
-                  style: TextStyle(
+                  style: GoogleFonts.notoKufiArabic(
                       color: HexColor('FABC05'),
-                      fontSize: 16.0.sp
+                      fontSize: 14.0.sp
                   ),
                 ),
               ),
@@ -47,8 +48,8 @@ class WhoUs extends StatelessWidget {
                 padding: const EdgeInsets.only(right: 95.0,top: 125.0).r,
                 child: Text(
                   '\"من نحن \"' ,
-                  style: TextStyle(
-                    fontSize: 40.0.sp,
+                  style: GoogleFonts.notoKufiArabic(
+                    fontSize: 35.0.sp,
                     fontWeight: FontWeight.w500,
                     //fontFamily: 'Outfit-Medium.ttf',
                     color: HexColor('55e8Fc'),
@@ -63,18 +64,21 @@ class WhoUs extends StatelessWidget {
                     Text(
                       ' . التطبيق يقدم خدممه مميزه لتفسير الاحلام أون لاين . تمتاذ بالخصوصيه '
                           'و السريه التامه للعميل . ',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                         color: Colors.white,
-                        fontSize: 19.0.sp,
+                        fontSize: 15.0.sp,
                         fontWeight: FontWeight.w800
                       ),
+                    ),
+                    SizedBox(
+                      height: 10.0.h,
                     ),
                     Text(
                       ' . يمكنك اختيار نوع الخدمه التى تناسبك  '
                           '(رؤيا عاديه - فضيه - ذهبيه - فوريه). ',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                     ),
@@ -83,9 +87,9 @@ class WhoUs extends StatelessWidget {
                     ),
                     Text(
                       '. كما يمكنك اختيار مفسرك المفضل و الدردشه مع المفسر قبل تفسير حلمك .',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                     ),
@@ -95,9 +99,9 @@ class WhoUs extends StatelessWidget {
                     Text(
                       '. التطبيق يحتوى على نخبه من المفسرين الموثوق فيهم و اهل الخبره'
                           ' و علم\n (يمكنك الاطلاع عليهم و على سيرتهم الذاتيه داخل التطبيق).',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                     ),
@@ -107,9 +111,9 @@ class WhoUs extends StatelessWidget {
                     Text(
                       '. طريقه الدفع تتم بصوره مؤمنه و موثوقه حيث ان الدفع يتم على حساب يخضع '
                           ' الى ترخيص حكومى و ذلك للتأمين الكامل لعمليات الدفع .',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                     ),
@@ -119,9 +123,9 @@ class WhoUs extends StatelessWidget {
                     Text(
                       '. يتم الدخول للتطبيق عن طريق احدى مواقع التواصل الاجتماعى '
                           'حتى نحافظ على حسابك و عدم وقوعك فى نسيان كلمه السر او بيانات الدخول .',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 15.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                     ),
@@ -130,9 +134,9 @@ class WhoUs extends StatelessWidget {
                     ),
                     Text(
                       'نتمنى لكم أسعد الاوقات داخل التطبيق .. ',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 19.0.sp,
+                          fontSize: 14.0.sp,
                           fontWeight: FontWeight.w800
                       ),
                     ),
@@ -147,7 +151,7 @@ class WhoUs extends StatelessWidget {
                         onPressed: (){},
                         child:Text(
                           'دخول',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
                               fontSize: 18.0.sp,
                               fontWeight: FontWeight.w600

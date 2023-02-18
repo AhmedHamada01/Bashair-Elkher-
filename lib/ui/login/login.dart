@@ -6,6 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hexcolor/hexcolor.dart';
 
@@ -39,24 +40,23 @@ class _loginState extends State<login> {
                   fit: BoxFit.cover,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 75.0,top: 20.0).r,
+                  padding: const EdgeInsets.only(right: 60.0,top: 20.0).r,
                   child: Text(
                     'بشائر الخيرات ',
-                    style: TextStyle(
+                    style: GoogleFonts.notoKufiArabic(
                       fontSize: 40.0.sp,
                       fontWeight: FontWeight.w400,
-                      //fontFamily: 'Outfit-Medium.ttf',
                       color: Colors.white,
                     ),
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 95.0,top: 80.0).r,
+                  padding: const EdgeInsets.only(right: 85.0,top: 95.0).r,
                   child: Text(
                     '\" يَا أَبَتِ هَٰذَا تَأْوِيلُ رُؤْيَايَ\"',
-                    style: TextStyle(
+                    style: GoogleFonts.notoKufiArabic(
                         color: HexColor('FABC05'),
-                        fontSize: 16.0.sp
+                        fontSize: 14.0.sp
                     ),
                   ),
                 ),
@@ -67,10 +67,11 @@ class _loginState extends State<login> {
                     children: [
                       Text(
                         'دخول العميل ',
-                        style: TextStyle(
+                        style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 28.0.sp,
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.w600,
+
                         ),
                       ),
                       SizedBox(
@@ -130,20 +131,20 @@ class _loginState extends State<login> {
                       ),
                       Text(
                         'دخول المفسر ',
-                        style: TextStyle(
+                        style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 28.0.sp,
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(right: 20.0,bottom: 20.0).r,
+                        padding: const EdgeInsets.only(right: 20.0,bottom: 20.0,top: 10.0).r,
                         child: Text(
                           ' من فضلك ادخل كود المفسر ',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                             color: HexColor('FABC05'),
                             fontWeight: FontWeight.w600,
-                            fontSize: 20.0.sp
+                            fontSize: 15.0.sp
                           ),
                         ),
                       ),
@@ -211,7 +212,7 @@ class _loginState extends State<login> {
                           },
                           child:Text(
                             'دخول',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
                               fontSize: 18.0.sp,
                               fontWeight: FontWeight.w600

@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -78,18 +79,18 @@ class _MalakState extends State<Malak> {
                       children: [
                         Text(
                           " المفسره / ملاك تفسير الاحلام  ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 14.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
                         Text(
                           "اكثر من 20 عام من الخبره "
                               "فى تفسير الرؤى و الاحلام  ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 13.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
@@ -108,8 +109,8 @@ class _MalakState extends State<Malak> {
                     child: Text(
                       '. خبره 20 عام فى تفسير الاحلام '
                           'تفسير المنامات بالقرآن و السنه النبويه',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -126,8 +127,8 @@ class _MalakState extends State<Malak> {
                     ),
                     child: Text(
                       '. تفسير المنامات بدقه و عمق مع مراعات الجانب النفسي  ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -145,8 +146,8 @@ class _MalakState extends State<Malak> {
                     child: Text(
                       '. حاصله على دورات فى التفسير النفسي'
                           ' و الاجتماعى للمنامات و الحلام ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -159,8 +160,8 @@ class _MalakState extends State<Malak> {
                     padding: const EdgeInsets.only(left: 200.0).r,
                     child: Text(
                       'التقييم',
-                      style: TextStyle(
-                          fontSize: 30.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.bold,
                           color: Colors.white
                       ),

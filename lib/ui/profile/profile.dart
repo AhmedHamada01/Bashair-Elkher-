@@ -3,6 +3,7 @@ import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:bshair_elkher/ui/receiving_request/receiving_requests.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -75,20 +76,20 @@ class _ProfileState extends State<Profile> {
                       children: [
                         Text(
                             'الاجمالى ',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                             color: Colors.white,
-                            fontSize: 19.0.sp,
+                            fontSize: 14.0.sp,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
                         SizedBox(
-                          width: 50.0.w,
+                          width: 60.0.w,
                         ),
                         Text(
                             'تم سداده',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                             color: Colors.white,
-                            fontSize: 19.0.sp,
+                            fontSize: 14.0.sp,
                             fontWeight: FontWeight.w200,
                           ),
                         ),
@@ -97,9 +98,9 @@ class _ProfileState extends State<Profile> {
                         ),
                         Text(
                             'المتبقي',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                             color: Colors.white,
-                            fontSize: 19.0.sp,
+                            fontSize: 14.0.sp,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
@@ -122,9 +123,9 @@ class _ProfileState extends State<Profile> {
                         child: Text(
                           textAlign: TextAlign.center,
                           '500 ر س',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                             color: Colors.white,
-                            fontSize: 15.0.sp,
+                            fontSize: 13.0.sp,
 
                           ),
                         ),
@@ -142,9 +143,9 @@ class _ProfileState extends State<Profile> {
                         child: Text(
                           textAlign: TextAlign.center,
                           '180 ر س',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                             color: Colors.white,
-                            fontSize: 15.0.sp,
+                            fontSize: 13.0.sp,
 
                           ),
                         ),
@@ -162,9 +163,9 @@ class _ProfileState extends State<Profile> {
                         child: Text(
                           textAlign: TextAlign.center,
                           '320 ر س',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                             color: Colors.white,
-                            fontSize: 15.0.sp,
+                            fontSize: 13.0.sp,
 
                           ),
                         ),
@@ -178,8 +179,8 @@ class _ProfileState extends State<Profile> {
                     padding: const EdgeInsets.only(left: 200.0).r,
                     child: Text(
                       'التقييم',
-                      style: TextStyle(
-                          fontSize: 30.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.bold,
                           color: Colors.white
                       ),
@@ -207,9 +208,9 @@ class _ProfileState extends State<Profile> {
                       child: Text(
                         textAlign: TextAlign.center,
                         'احلامى ',
-                        style: TextStyle(
+                        style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 40.0.sp,
+                          fontSize: 30.0.sp,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -230,9 +231,9 @@ class _ProfileState extends State<Profile> {
                     child: Text(
                       textAlign: TextAlign.center,
                       'ارسال اشعار بالتواجد',
-                      style: TextStyle(
+                      style: GoogleFonts.notoKufiArabic(
                         color: Colors.white,
-                        fontSize: 27.0.sp,
+                        fontSize: 21.0.sp,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -257,25 +258,25 @@ class _ProfileState extends State<Profile> {
                               ),
                               Text(
                                 ' ضبط ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
-                                  fontSize: 25.0.sp,
+                                  fontSize: 20.0.sp,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
                                 ' استقبال  ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
-                                  fontSize: 25.0.sp,
+                                  fontSize: 20.0.sp,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
                                 'الطلبات',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
-                                  fontSize: 25.0.sp,
+                                  fontSize: 20.0.sp,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -310,17 +311,17 @@ class _ProfileState extends State<Profile> {
                               ),
                               Text(
                                 'شارك  ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
-                                  fontSize: 20.0.sp,
+                                  fontSize: 16.0.sp,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
                                 'التطبيق',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
-                                  fontSize: 20.0.sp,
+                                  fontSize: 16.0.sp,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),

@@ -26,6 +26,7 @@ dependencies:
   flutter_facebook_auth: ^3.5.0
   twitter_login: ^4.0.1
   url_launcher: ^6.1.5
+  google_fonts: ^4.0.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -56,17 +57,11 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
 fonts:
-  - family: Outfit
+  - family: NotoNastaliqUrdu
     fonts:
-      - asset: Fonts/Outfit-Black.ttf
-      - asset: Fonts/Outfit-ExtraBold.ttf
-      - asset: Fonts/Outfit-ExtraBold.ttf
-      - asset: Fonts/Outfit-ExtraLight.ttf
-      - asset: Fonts/Outfit-Light.ttf
-      - asset: Fonts/Outfit-Medium.ttf
-      - asset: Fonts/Outfit-Regular.ttf
-      - asset: Fonts/Outfit-SemiBold.ttf
-      - asset: Fonts/Outfit-Thin.ttf
+      - asset: Fonts/NotoNastaliqUrdu-VariableFont_wght.ttf
+      - style: Regular 400
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

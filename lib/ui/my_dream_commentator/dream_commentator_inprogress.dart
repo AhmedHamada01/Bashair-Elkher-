@@ -4,6 +4,7 @@ import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -50,23 +51,23 @@ class _DreamsCommentatorInProgressState extends State<DreamsCommentatorInProgres
                   children: [
                     Text(
                       'احلام تحت التنفيذ ',
-                      style: TextStyle(
-                          fontSize: 40.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 30.0.sp,
                           fontWeight: FontWeight.w700,
                           color: Colors.white
                       ),
                     ),
                     EasyRichText(
                       "العدد : 3 احلام",
-                      defaultStyle: TextStyle(
-                          fontSize: 40.0.sp,
+                      defaultStyle: GoogleFonts.notoKufiArabic(
+                          fontSize: 30.0.sp,
                           fontWeight: FontWeight.w700,
                           color: Colors.white
                       ),
                       patternList: [
                         EasyRichTextPattern(
                           targetString: '3 احلام',
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: HexColor('FABC05'),
                               fontSize: 32.0.sp,
                               fontWeight: FontWeight.bold
@@ -119,9 +120,9 @@ class _DreamsCommentatorInProgressState extends State<DreamsCommentatorInProgres
                             child: Text(
                               textAlign: TextAlign.center,
                               '',
-                              style: TextStyle(
+                              style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
-                                  fontSize: 35.0.sp,
+                                  fontSize: 28.0.sp,
                                   fontWeight: FontWeight.w600
                               ),
                             ),
@@ -132,102 +133,112 @@ class _DreamsCommentatorInProgressState extends State<DreamsCommentatorInProgres
                     SizedBox(
                       height: 20.0.h,
                     ),
-                    Row(
-                      children: [
-                        Container(
-                          width: 60.0.w,
-                          height: 60.0.h,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(50.0).w,
-                            border: Border.all(
-                              color: HexColor('FABC05'),
-                              width: 8.0.w,
+                    InkWell(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>InformationScreen2()));
+                      },
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 60.0.w,
+                            height: 60.0.h,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(50.0).w,
+                              border: Border.all(
+                                color: HexColor('FABC05'),
+                                width: 8.0.w,
+                              ),
+                            ),
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              '2',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 35.0.sp,
+                                  fontWeight: FontWeight.w600
+                              ),
                             ),
                           ),
-                          child: Text(
-                            textAlign: TextAlign.center,
-                            '2',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 35.0.sp,
-                                fontWeight: FontWeight.w600
+                          SizedBox(
+                            width: 15.0.w,
+                          ),
+                          Container(
+                            width: 240.0.w,
+                            height: 60.0.h,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(30.0).w,
+                              border: Border.all(
+                                color: HexColor('FABC05'),
+                                width: 7.0.w,
+                              ),
+                            ),
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              '',
+                              style: GoogleFonts.notoKufiArabic(
+                                  color: Colors.white,
+                                  fontSize: 28.0.sp,
+                                  fontWeight: FontWeight.w600
+                              ),
                             ),
                           ),
-                        ),
-                        SizedBox(
-                          width: 15.0.w,
-                        ),
-                        Container(
-                          width: 240.0.w,
-                          height: 60.0.h,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(30.0).w,
-                            border: Border.all(
-                              color: HexColor('FABC05'),
-                              width: 7.0.w,
-                            ),
-                          ),
-                          child: Text(
-                            textAlign: TextAlign.center,
-                            '',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 35.0.sp,
-                                fontWeight: FontWeight.w600
-                            ),
-                          ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                     SizedBox(
                       height: 20.0.h,
                     ),
-                    Row(
-                      children: [
-                        Container(
-                          width: 60.0.w,
-                          height: 60.0.h,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(50.0).w,
-                            border: Border.all(
-                              color: HexColor('FABC05'),
-                              width: 8.0.w,
+                    InkWell(
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>InformationScreen2()));
+                      },
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 60.0.w,
+                            height: 60.0.h,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(50.0).w,
+                              border: Border.all(
+                                color: HexColor('FABC05'),
+                                width: 8.0.w,
+                              ),
+                            ),
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              '3',
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 35.0.sp,
+                                  fontWeight: FontWeight.w600
+                              ),
                             ),
                           ),
-                          child: Text(
-                            textAlign: TextAlign.center,
-                            '3',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 35.0.sp,
-                                fontWeight: FontWeight.w600
+                          SizedBox(
+                            width: 15.0.w,
+                          ),
+                          Container(
+                            width: 240.0.w,
+                            height: 60.0.h,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(30.0).w,
+                              border: Border.all(
+                                color: HexColor('FABC05'),
+                                width: 7.0.w,
+                              ),
+                            ),
+                            child: Text(
+                              textAlign: TextAlign.center,
+                              '',
+                              style: GoogleFonts.notoKufiArabic(
+                                  color: Colors.white,
+                                  fontSize: 28.0.sp,
+                                  fontWeight: FontWeight.w600
+                              ),
                             ),
                           ),
-                        ),
-                        SizedBox(
-                          width: 15.0.w,
-                        ),
-                        Container(
-                          width: 240.0.w,
-                          height: 60.0.h,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(30.0).w,
-                            border: Border.all(
-                              color: HexColor('FABC05'),
-                              width: 7.0.w,
-                            ),
-                          ),
-                          child: Text(
-                            textAlign: TextAlign.center,
-                            '',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 35.0.sp,
-                                fontWeight: FontWeight.w600
-                            ),
-                          ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ],
                 ),

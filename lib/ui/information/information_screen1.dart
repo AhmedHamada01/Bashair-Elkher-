@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/information/information_screen2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -72,18 +73,18 @@ class _InformationScreen1State extends State<InformationScreen1> {
                                 Text(
                                   textAlign: TextAlign.center,
                                   'عميلنا العزيز  ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                      fontSize: 18.0.sp,
+                                      fontSize: 15.0.sp,
                                       fontWeight: FontWeight.w800
                                   ),
                                 ),
                                 Text(
                                   textAlign: TextAlign.center,
                                   'يرجى ادخال بيانات صحاب الرؤيا  ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
-                                      fontSize: 17.0.sp,
+                                      fontSize: 13.0.sp,
                                       fontWeight: FontWeight.w800
                                   ),
                                 ),
@@ -111,10 +112,10 @@ class _InformationScreen1State extends State<InformationScreen1> {
                                  ),
                                  Text(
                                    'الجنس : ',
-                                   style: TextStyle(
+                                   style: GoogleFonts.notoKufiArabic(
                                        color: Colors.white,
                                        fontWeight: FontWeight.w400,
-                                       fontSize: 20.0.sp
+                                       fontSize: 15.0.sp
                                    ),
                                  ),
                                  SizedBox(
@@ -188,10 +189,10 @@ class _InformationScreen1State extends State<InformationScreen1> {
                                  ),
                                  Text(
                                    'العمر : ',
-                                   style: TextStyle(
+                                   style: GoogleFonts.notoKufiArabic(
                                        color: Colors.white,
                                        fontWeight: FontWeight.w400,
-                                       fontSize: 20.0.sp
+                                       fontSize: 15.0.sp
                                    ),
                                  ),
                                  SizedBox(
@@ -266,10 +267,10 @@ class _InformationScreen1State extends State<InformationScreen1> {
                               children: [
                                 Text(
                                   'المهنه / الوظيفه ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
                                       fontWeight: FontWeight.w400,
-                                      fontSize: 20.0.sp
+                                      fontSize: 15.0.sp
                                   ),
                                 ),
                                 SizedBox(
@@ -337,10 +338,10 @@ class _InformationScreen1State extends State<InformationScreen1> {
                               children: [
                                 Text(
                                   'الحاله الأجتماعيه ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
                                       fontWeight: FontWeight.w400,
-                                      fontSize: 20.0.sp
+                                      fontSize: 15.0.sp
                                   ),
                                 ),
                                 SizedBox(
@@ -414,10 +415,10 @@ class _InformationScreen1State extends State<InformationScreen1> {
                             ),
                             Text(
                               'تاريخ الرؤيه : ',
-                              style: TextStyle(
+                              style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
-                                  fontSize: 20.0.sp
+                                  fontSize: 15.0.sp
                               ),
                             ),
                             SizedBox(
@@ -479,9 +480,9 @@ class _InformationScreen1State extends State<InformationScreen1> {
                       ),
                       Text(
                         'اكتب حلمك بطريقه واضحه ',
-                        style: TextStyle(
+                        style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 20.0.sp,
+                          fontSize: 18.0.sp,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
@@ -497,10 +498,10 @@ class _InformationScreen1State extends State<InformationScreen1> {
                           decoration: InputDecoration(
                             hintText: 'بسم الله الرحمن الرحيم  ,'
                                 ' لقد رأيت فى المنام انى ..',
-                            hintStyle: TextStyle(
+                            hintStyle: GoogleFonts.notoKufiArabic(
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
-                              fontSize: 16.0.sp
+                              fontSize: 13.0.sp
                             ),
                             contentPadding: EdgeInsets.symmetric(vertical: 130.0).r,
                             enabledBorder:OutlineInputBorder(
@@ -547,10 +548,9 @@ class _InformationScreen1State extends State<InformationScreen1> {
                         child: ElevatedButton.icon(
                           label: Text(
                             'ارسال',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 20.0.sp,
-                                fontFamily: 'Outfit-Medium',
+                                fontSize: 17.0.sp,
                                 fontWeight: FontWeight.w600
 
                             ),

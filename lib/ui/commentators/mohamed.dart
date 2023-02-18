@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -77,17 +78,17 @@ class _MohamedState extends State<Mohamed> {
                       children: [
                         Text(
                           " المفسر / محمد المباشر   ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 15.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
                         Text(
                               "خبره اكثر من 17 عام خطيب و امام سابق ",
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.white,
-                              fontSize: 17.0.sp,
+                              fontSize: 13.0.sp,
                               fontWeight: FontWeight.w700
                           ),
                         ),
@@ -105,8 +106,8 @@ class _MohamedState extends State<Mohamed> {
                     ),
                     child: Text(
                       '. منهجى هو الدقه فى التفسير ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -124,8 +125,8 @@ class _MohamedState extends State<Mohamed> {
                     child: Text(
                       '. احرص على دمج الرموز الحديث فى '
                           'تعبير الرؤى من خلال النسق القرأنى ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -142,8 +143,8 @@ class _MohamedState extends State<Mohamed> {
                     ),
                     child: Text(
                       '. ملتزم بالكتاب و السنه فى علم التأويل ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -160,8 +161,8 @@ class _MohamedState extends State<Mohamed> {
                     ),
                     child: Text(
                       '. خطيب و امام سابق فى الجمعيه الشرعيه ',
-                      style: TextStyle(
-                        fontSize: 18.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                        fontSize: 14.0.sp,
                         fontWeight: FontWeight.w700,
 
                       ),
@@ -174,8 +175,8 @@ class _MohamedState extends State<Mohamed> {
                     padding: const EdgeInsets.only(left: 200.0).r,
                     child: Text(
                       'التقييم',
-                      style: TextStyle(
-                          fontSize: 30.0.sp,
+                      style: GoogleFonts.notoKufiArabic(
+                          fontSize: 25.0.sp,
                           fontWeight: FontWeight.bold,
                           color: Colors.white
                       ),

@@ -2,6 +2,7 @@
 import 'package:bshair_elkher/ui/profile/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 import '../instructions/instructions.dart';
 import '../nav_bar.dart';
@@ -70,9 +71,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                             child: Text(
                               textAlign: TextAlign.center,
                               'الدردشه ',
-                              style: TextStyle(
+                              style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 20.0.sp,
+                                fontSize: 17.0.sp,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -91,9 +92,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                             child: Text(
                               textAlign: TextAlign.center,
                               'بيانات الحلم ',
-                              style: TextStyle(
+                              style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 20.0.sp,
+                                fontSize: 17.0.sp,
                                 fontWeight: FontWeight.w600,
                               ),
                             ),
@@ -121,9 +122,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                 Text(
                                   textAlign: TextAlign.center,
                                   'رؤيه ذهبيه  ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
-                                      fontSize: 18.0.sp,
+                                      fontSize: 13.0.sp,
                                       fontWeight: FontWeight.w800
                                   ),
                                 ),
@@ -133,9 +134,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                 Text(
                                   textAlign: TextAlign.center,
                                   'رقم 6 ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
-                                      fontSize: 15.0.sp,
+                                      fontSize: 13.0.sp,
                                       fontWeight: FontWeight.w600
                                   ),
                                 ),
@@ -149,17 +150,17 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                 Text(
                                   textAlign: TextAlign.center,
                                   'تاريخ الرؤيه :   ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
-                                      fontSize: 17.0.sp,
+                                      fontSize: 14.0.sp,
                                       fontWeight: FontWeight.w800
                                   ),
                                 ),
                                 Text(
                                   textAlign: TextAlign.center,
                                   'اليوم - بعد المغرب   ',
-                                  style: TextStyle(
-                                      fontSize: 16.0.sp,
+                                  style: GoogleFonts.notoKufiArabic(
+                                      fontSize: 13.0.sp,
                                       fontWeight: FontWeight.w800
                                   ),
                                 ),
@@ -187,10 +188,10 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                 ),
                                 Text(
                                   'الجنس : ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
                                       fontWeight: FontWeight.w400,
-                                      fontSize: 20.0.sp
+                                      fontSize: 15.0.sp
                                   ),
                                 ),
                                 SizedBox(
@@ -207,8 +208,8 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                   child:Text(
                                     textAlign: TextAlign.center,
                                     'أنثى ',
-                                    style: TextStyle(
-                                        fontSize: 20.0.sp,
+                                    style: GoogleFonts.notoKufiArabic(
+                                        fontSize: 15.0.sp,
                                         fontWeight: FontWeight.w600
                                     ),
                                   ),
@@ -233,10 +234,10 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                 ),
                                 Text(
                                   'العمر : ',
-                                  style: TextStyle(
+                                  style: GoogleFonts.notoKufiArabic(
                                       color: Colors.white,
                                       fontWeight: FontWeight.w400,
-                                      fontSize: 20.0.sp
+                                      fontSize: 15.0.sp
                                   ),
                                 ),
                                 SizedBox(
@@ -253,8 +254,8 @@ class _InformationScreen2State extends State<InformationScreen2> {
                                   child:Text(
                                     textAlign: TextAlign.center,
                                     '24 ',
-                                    style: TextStyle(
-                                        fontSize: 20.0.sp,
+                                    style: GoogleFonts.notoKufiArabic(
+                                        fontSize: 15.0.sp,
                                         fontWeight: FontWeight.w600
                                     ),
                                   ),
@@ -282,10 +283,10 @@ class _InformationScreen2State extends State<InformationScreen2> {
                             ),
                             Text(
                               'المهنه / الحاله :  ',
-                              style: TextStyle(
+                              style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
                                   fontWeight: FontWeight.w400,
-                                  fontSize: 20.0.sp
+                                  fontSize: 15.0.sp
                               ),
                             ),
                             SizedBox(
@@ -302,8 +303,8 @@ class _InformationScreen2State extends State<InformationScreen2> {
                               child:Text(
                                 textAlign: TextAlign.center,
                                 'طبيبه ',
-                                style: TextStyle(
-                                    fontSize: 20.0.sp,
+                                style: GoogleFonts.notoKufiArabic(
+                                    fontSize: 15.0.sp,
                                     fontWeight: FontWeight.w600
                                 ),
                               ),
@@ -322,8 +323,8 @@ class _InformationScreen2State extends State<InformationScreen2> {
                               child:Text(
                                 textAlign: TextAlign.center,
                                 'عزباء ',
-                                style: TextStyle(
-                                    fontSize: 20.0.sp,
+                                style: GoogleFonts.notoKufiArabic(
+                                    fontSize: 15.0.sp,
                                     fontWeight: FontWeight.w600
                                 ),
                               ),
@@ -337,9 +338,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                       Text(
                         textAlign: TextAlign.center,
                         'نص الرؤيا: ',
-                        style: TextStyle(
+                        style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 20.0.sp,
+                          fontSize: 17.0.sp,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
@@ -363,69 +364,23 @@ class _InformationScreen2State extends State<InformationScreen2> {
                           ),
                         ),
                       ),
-                      // TextFormField(
-                      //     keyboardType: TextInputType.text,
-                      //     style: TextStyle(
-                      //         color: Colors.black,
-                      //         fontSize: 20.0.sp,
-                      //         fontWeight: FontWeight.w600
-                      //     ),
-                      //     cursorColor: Colors.black,
-                      //     decoration: InputDecoration(
-                      //       contentPadding: EdgeInsets.symmetric(vertical: 70.0).r,
-                      //       enabledBorder:OutlineInputBorder(
-                      //         borderSide: BorderSide(
-                      //           color: HexColor('47B717'),
-                      //         ),
-                      //         borderRadius: BorderRadius.circular(20.0).w,
-                      //       ),
-                      //       focusedBorder: OutlineInputBorder(
-                      //         borderSide: BorderSide(
-                      //           color: HexColor('47B717'),
-                      //         ),
-                      //         borderRadius: BorderRadius.circular(20.0).w,
-                      //       ),
-                      //       errorBorder:OutlineInputBorder(
-                      //         borderRadius: BorderRadius.circular(20).w,
-                      //         borderSide: BorderSide(
-                      //           color: Colors.red,
-                      //         ),
-                      //       ),
-                      //       focusedErrorBorder:OutlineInputBorder(
-                      //         borderRadius: BorderRadius.circular(20).w,
-                      //         borderSide: BorderSide(
-                      //           color: Colors.red,
-                      //         ),
-                      //       ),
-                      //       filled: true,
-                      //       fillColor: Colors.white,
-                      //     ),
-                      //     validator: (value)
-                      //     {
-                      //       if(value?.isEmpty ?? true )
-                      //       {
-                      //         return '' ;
-                      //       }
-                      //       return null ;
-                      //     }
-                      // ),
                       SizedBox(
                         height: 20.0.h,
                       ),
                       Text(
                         textAlign: TextAlign.center,
                         'التفسير : ',
-                        style: TextStyle(
+                        style: GoogleFonts.notoKufiArabic(
                           color: Colors.white,
-                          fontSize: 20.0.sp,
+                          fontSize: 17.0.sp,
                           fontWeight: FontWeight.w600,
                         ),
                       ),
                       TextFormField(
                           keyboardType: TextInputType.text,
-                          style: TextStyle(
+                          style: GoogleFonts.notoKufiArabic(
                               color: Colors.black,
-                              fontSize: 20.0.sp,
+                              fontSize: 15.0.sp,
                               fontWeight: FontWeight.w600
                           ),
                           cursorColor: Colors.black,
@@ -487,10 +442,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                             child: ElevatedButton.icon(
                               label: Text(
                                 'انتهى',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
-                                    fontFamily: 'Outfit-Medium',
+                                    fontSize: 15.0.sp,
                                     fontWeight: FontWeight.w600
 
                                 ),
@@ -523,10 +477,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                           ElevatedButton(
                             child: Text(
                               'احلام لنفس العميل ',
-                              style: TextStyle(
+                              style: GoogleFonts.notoKufiArabic(
                                   color: Colors.white,
-                                  fontSize: 20.0.sp,
-                                  fontFamily: 'Outfit-Medium',
+                                  fontSize: 15.0.sp,
                                   fontWeight: FontWeight.w600
 
                               ),

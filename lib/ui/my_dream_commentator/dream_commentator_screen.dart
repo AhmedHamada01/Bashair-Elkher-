@@ -6,6 +6,7 @@ import 'package:bshair_elkher/ui/profile/profile.dart';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../instructions/instructions.dart';
@@ -57,8 +58,8 @@ class _DreamCommentatorScreenState extends State<DreamCommentatorScreen> {
                 padding: const EdgeInsets.only(right: 100.0,top: 35.0).r,
                 child: Text(
                   'بشائر الخيرات ',
-                  style: TextStyle(
-                    fontSize: 40.0.sp,
+                  style: GoogleFonts.notoKufiArabic(
+                    fontSize: 35.0.sp,
                     fontWeight: FontWeight.w400,
                     //fontFamily: 'Outfit-Medium.ttf',
                     color: Colors.white,
@@ -69,9 +70,9 @@ class _DreamCommentatorScreenState extends State<DreamCommentatorScreen> {
                 padding: const EdgeInsets.only(right: 115.0,top: 95.0).r,
                 child: Text(
                   '\" يَا أَبَتِ هَٰذَا تَأْوِيلُ رُؤْيَايَ\"',
-                  style: TextStyle(
+                  style: GoogleFonts.notoKufiArabic(
                       color: HexColor('FABC05'),
-                      fontSize: 16.0.sp
+                      fontSize: 13.0.sp
                   ),
                 ),
               ),
@@ -79,8 +80,8 @@ class _DreamCommentatorScreenState extends State<DreamCommentatorScreen> {
                 padding: const EdgeInsets.only(right: 90.0,top: 160.0).r,
                 child: Text(
                   'احلامى' ,
-                  style: TextStyle(
-                    fontSize: 60.0.sp,
+                  style: GoogleFonts.notoKufiArabic(
+                    fontSize: 50.0.sp,
                     fontWeight: FontWeight.bold,
                     //fontFamily: 'Outfit-Medium.ttf',
                     color: HexColor('55e8Fc'),
@@ -106,8 +107,8 @@ class _DreamCommentatorScreenState extends State<DreamCommentatorScreen> {
                         child: Text(
                           textAlign: TextAlign.center,
                           'احلام تم تفسيرها ',
-                          style: TextStyle(
-                            fontSize: 35.0.sp,
+                          style: GoogleFonts.notoKufiArabic(
+                            fontSize: 28.0.sp,
                             fontWeight: FontWeight.w600,
                             color: Colors.white,
                           ),
@@ -132,8 +133,8 @@ class _DreamCommentatorScreenState extends State<DreamCommentatorScreen> {
                         child: Text(
                           textAlign: TextAlign.center,
                           'احلام تحت التنفيذ ',
-                          style: TextStyle(
-                            fontSize: 35.0.sp,
+                          style: GoogleFonts.notoKufiArabic(
+                            fontSize: 28.0.sp,
                             fontWeight: FontWeight.w600,
                             color: Colors.white,
                           ),

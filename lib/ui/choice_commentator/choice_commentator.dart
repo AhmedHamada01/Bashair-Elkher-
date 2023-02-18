@@ -10,6 +10,7 @@ import 'package:bshair_elkher/ui/commentators/osama.dart';
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hexcolor/hexcolor.dart';
 import '../instructions/instructions.dart';
 
@@ -48,13 +49,13 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                 fit: BoxFit.cover,
               ),
               Padding(
-                padding: const EdgeInsets.only(right: 80.0,top: 30.0).r,
+                padding: const EdgeInsets.only(right: 65.0,top: 35.0).r,
                 child: Text(
                   textAlign: TextAlign.center,
                   'يرجى اختيار المفسر ',
-                  style: TextStyle(
+                  style: GoogleFonts.notoKufiArabic(
                     color: Colors.white,
-                    fontSize: 25.0.sp,
+                    fontSize: 23.0.sp,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
@@ -103,25 +104,25 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'محمد المباشر ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 17.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 17 عام ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 'خطيب و امام سابق ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 14.5.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -172,17 +173,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'ابو يحي الاشرم ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 18.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 20 عام ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -240,17 +241,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'اسامه قنديل ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 18.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 20 عام ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -304,17 +305,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'امنيه احمد  ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 18.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 20 عام ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -372,17 +373,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'محمود فكرى ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 18.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 21 عام ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -436,17 +437,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'ام ريان ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 18.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 3 سنوات ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -504,17 +505,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'عبدالرحمن الاحمرى ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 20 عام ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -568,17 +569,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                               ),
                               Text(
                                 'ملاك ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 20.0.sp,
+                                    fontSize: 18.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
                               Text(
                                 ' خبره 20 عام ',
-                                style: TextStyle(
+                                style: GoogleFonts.notoKufiArabic(
                                     color: Colors.white,
-                                    fontSize: 18.0.sp,
+                                    fontSize: 16.0.sp,
                                     fontWeight: FontWeight.w400
                                 ),
                               ),
@@ -631,17 +632,17 @@ class _ChoiceCommentatorState extends State<ChoiceCommentator> {
                           ),
                           Text(
                             'ابراهيم الجنابى ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 20.0.sp,
+                                fontSize: 18.0.sp,
                                 fontWeight: FontWeight.w400
                             ),
                           ),
                           Text(
                             ' خبره 15 عام ',
-                            style: TextStyle(
+                            style: GoogleFonts.notoKufiArabic(
                                 color: Colors.white,
-                                fontSize: 18.0.sp,
+                                fontSize: 16.0.sp,
                                 fontWeight: FontWeight.w400
                             ),
                           ),
