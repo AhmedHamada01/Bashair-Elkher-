@@ -22,7 +22,7 @@ class _InformationScreen2State extends State<InformationScreen2> {
       bottomNavigationBar: bottomNavBar(
         onTap: (index) {
           if (index==2){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Profile()));
           }if(index==0){
             Navigator.pop(context);
           }
