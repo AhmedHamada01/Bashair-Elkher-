@@ -59,7 +59,7 @@ class _MalakState extends State<Malak> {
                   ),
                   CircleAvatar(
                     backgroundImage: AssetImage(
-                      'Assets/image/malak.png',
+                      'Assets/image/image7.png',
                     ),
                     radius: 80.0.w,
                   ),

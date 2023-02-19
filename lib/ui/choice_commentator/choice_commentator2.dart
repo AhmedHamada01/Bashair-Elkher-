@@ -546,7 +546,7 @@ class _ChoiceCommentator2State extends State<ChoiceCommentator2> {
                                   ),
                                   CircleAvatar(
                                     backgroundImage: AssetImage(
-                                      'Assets/image/malak.png',
+                                      'Assets/image/image7.png',
                                     ),
                                     radius: 30.0.w,
                                   ),

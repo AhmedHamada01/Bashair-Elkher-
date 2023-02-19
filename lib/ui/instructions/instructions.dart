@@ -5,6 +5,7 @@ import 'package:bshair_elkher/ui/choice_commentator/choice_commentator.dart';
 import 'package:bshair_elkher/ui/instructions/instructions_screen.dart';
 import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:bshair_elkher/ui/packages/package.dart';
+import 'package:bshair_elkher/ui/packages/package2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -186,7 +187,7 @@ class _InstructionsState extends State<Instructions> {
                      ),
                      InkWell(
                        onTap: (){
-                         Navigator.push(context, MaterialPageRoute(builder: (context)=>ChoiceCommentator2()));
+                         Navigator.push(context, MaterialPageRoute(builder: (context)=>Packages2()));
                        },
                        child: Container(
                          padding: EdgeInsets.only(top: 10.0).r,
