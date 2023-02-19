@@ -27,8 +27,8 @@ class _InstructionsState extends State<Instructions> {
     return Scaffold(
       bottomNavigationBar: bottomNavBar(
         onTap: (index) {
-          if (index==0){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=>Instructions()));
+         if(index==0){
+            Navigator.pop(context);
           }
           setState(() {
             currentIndex = index ;

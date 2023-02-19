@@ -24,9 +24,7 @@ class _ProfileState extends State<Profile> {
     return Scaffold(
       bottomNavigationBar: bottomNavBarCommentator(
         onTap: (index) {
-          if (index==2){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=>Profile()));
-          }if(index==0){
+          if(index==0){
             Navigator.pop(context);
           }
           setState(() {
