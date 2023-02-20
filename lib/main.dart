@@ -1,27 +1,7 @@
-import 'package:bshair_elkher/ui/information/information_screen2.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'ui/choice_commentator/choice_commentator.dart';
-import 'ui/commentators/abdulrahman.dart';
-import 'ui/commentators/abo_yehia.dart';
-import 'ui/commentators/ibrahim.dart';
-import 'ui/commentators/mahmoud_fekery.dart';
-import 'ui/commentators/malak.dart';
-import 'ui/commentators/mohamed.dart';
-import 'ui/commentators/om_raian.dart';
-import 'ui/commentators/omnia_ahmed.dart';
-import 'ui/commentators/osama.dart';
-import 'ui/information/information_screen1.dart';
-import 'ui/instructions/instructions.dart';
-import 'ui/instructions/instructions_screen.dart';
 import 'ui/login/login.dart';
-import 'ui/packages/package.dart';
-import 'ui/profile/profile.dart';
-import 'ui/receiving_request/receiving_requests.dart';
-import 'ui/who_us/who_us.dart';
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
