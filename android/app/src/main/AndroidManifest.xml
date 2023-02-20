@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.bshair_elkher">
+    package="com.example.bashaar_elkhairat">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:label="bshair_elkher"
+        android:label="Basha'r Elkhairat"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

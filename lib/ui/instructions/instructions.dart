@@ -1,11 +1,11 @@
 
 import 'dart:io';
 
-import 'package:bshair_elkher/ui/choice_commentator/choice_commentator.dart';
-import 'package:bshair_elkher/ui/instructions/instructions_screen.dart';
-import 'package:bshair_elkher/ui/nav_bar.dart';
-import 'package:bshair_elkher/ui/packages/package.dart';
-import 'package:bshair_elkher/ui/packages/package2.dart';
+import 'package:bashaar_elkhairat/ui/choice_commentator/choice_commentator.dart';
+import 'package:bashaar_elkhairat/ui/instructions/instructions_screen.dart';
+import 'package:bashaar_elkhairat/ui/nav_bar.dart';
+import 'package:bashaar_elkhairat/ui/packages/package.dart';
+import 'package:bashaar_elkhairat/ui/packages/package2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';

@@ -1,4 +1,4 @@
-import 'package:bshair_elkher/ui/information/information_screen2.dart';
+import 'package:bashaar_elkhairat/ui/information/information_screen2.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
