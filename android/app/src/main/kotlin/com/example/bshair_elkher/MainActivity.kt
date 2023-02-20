@@ -1,4 +1,4 @@
-package com.example.bashaar_elkhairat
+package com.example.bshair_elkher
 
 import io.flutter.embedding.android.FlutterActivity
 

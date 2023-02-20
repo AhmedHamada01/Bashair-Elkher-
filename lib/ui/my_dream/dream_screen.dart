@@ -1,6 +1,6 @@
 
-import 'package:bashaar_elkhairat/ui/my_dream/dreams_in_progress.dart';
-import 'package:bashaar_elkhairat/ui/nav_bar.dart';
+import 'package:bshair_elkher/ui/my_dream/dreams_in_progress.dart';
+import 'package:bshair_elkher/ui/nav_bar.dart';
 import 'package:easy_rich_text/easy_rich_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
