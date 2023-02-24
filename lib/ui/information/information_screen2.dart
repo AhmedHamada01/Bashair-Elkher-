@@ -377,6 +377,9 @@ class _InformationScreen2State extends State<InformationScreen2> {
                         ),
                       ),
                       TextFormField(
+                        initialValue:'بسم الله و الحمد لله و الصلاه على رسول '
+                          ' الله , السلام عليكم و رحمه الله و بركاته '
+                          'التفسير : ',
                           keyboardType: TextInputType.text,
                           style: GoogleFonts.notoKufiArabic(
                               color: Colors.black,
@@ -384,17 +387,17 @@ class _InformationScreen2State extends State<InformationScreen2> {
                               fontWeight: FontWeight.w600
                           ),
                           cursorColor: Colors.black,
+                          maxLines: 10,
                           decoration: InputDecoration(
-                            // hintText: 'بسم الله و الحمد لله و الصلاه على رسول   ,'
-                            //     ' الله , السلام عليكم و رحمه الله و بركاته '
-                            //     'التفسير : ',
+                            //hintText: 'بسم الله و الحمد لله و الصلاه على رسول   ,'
+                              //  ' الله , السلام عليكم و رحمه الله و بركاته '
+                                //'التفسير : ',
 
                             // hintStyle: TextStyle(
                             //     color: Colors.black,
                             //     fontWeight: FontWeight.w600,
                             //     fontSize: 16.0.sp
                             // ),
-                            contentPadding: EdgeInsets.symmetric(vertical: 130.0).r,
                             enabledBorder:OutlineInputBorder(
                               borderSide: BorderSide(
                                 color: HexColor('47B717'),

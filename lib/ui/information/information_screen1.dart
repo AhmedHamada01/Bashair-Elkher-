@@ -487,23 +487,25 @@ class _InformationScreen1State extends State<InformationScreen1> {
                         ),
                       ),
                       TextFormField(
+                          initialValue:'بسم الله الرحمن الرحيم  ,'
+                          ' لقد رأيت فى المنام انى ',
                         textAlign:TextAlign.start,
                           keyboardType: TextInputType.text,
                           style: TextStyle(
                             color: Colors.black,
-                              fontSize: 20.0.sp,
+                              fontSize: 18.0.sp,
                               fontWeight: FontWeight.w600
                           ),
                           cursorColor: Colors.black,
+                          maxLines: 10,
                           decoration: InputDecoration(
-                            hintText: 'بسم الله الرحمن الرحيم  ,'
-                                ' لقد رأيت فى المنام انى ..',
+                            // hintText: 'بسم الله الرحمن الرحيم  ,'
+                            //     ' لقد رأيت فى المنام انى ..',
                             hintStyle: GoogleFonts.notoKufiArabic(
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
                               fontSize: 13.0.sp
                             ),
-                            contentPadding: EdgeInsets.symmetric(vertical: 130.0).r,
                             enabledBorder:OutlineInputBorder(
                               borderSide: BorderSide(
                                 color: HexColor('47B717'),
